@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yuval Medina | Composer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+</head>
+<body>
+    <!-- Hamburger icon -->
+    <div id="hamburger" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Sidebar menu -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <nav id="sidebar" class="sidebar">
+        <ul class="sidebar-primary">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#featured-works">Works</a></li>
+          <li><a href="#newsletter">Subscribe</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <hr class="sidebar-divider" />
+        <ul class="sidebar-secondary">
+            <li><a href="/store/index.html">Store</a></li>
+            <li><a href="/works/index.html">Catalog</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="streaming.html">Streaming</a></li>
+            <li><a href="about.html">Full Bio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Sections go here -->
+    <!-- MEDIA PREVIEW CAROUSEL -->
+    <!--
+    <div id="media-carousel">
+        <div id="carousel-controls">
+            <button id="prev-btn" class="carousel-arrow" aria-label="Previous">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+        </div>
+      
+        <div id="media-container-wrapper">
+          <div id="media-container">
+            media-body is inserted here --><!--
+          </div>
+        </div>
+      
+        <div id="carousel-controls">
+            <button id="next-btn" class="carousel-arrow" aria-label="Next">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+        </div>
+    </div> -->
+    <!-- Hero GIF + description + music player -->
+    <section id="hero" class="hero d-flex align-items-center justify-content-center text-center">
+        <div class="overlay"></div>
+        
+        <video
+            id="hero-video"
+            class="hero-video active"
+            autoplay
+            muted
+            playsinline
+            preload="auto"
+            src="/videos/hero1.mp4"
+        ></video>
+        <div class="hero-content">
+            <h1 class="display-4">Yuval Medina</h1>
+            <p class="hero-line">Yuval Medina is a composer and pianist who believes in the power of music to change our world.</p>
+            <p class="hero-line">A storyteller at heart, his music seeks to express all that cannot be said in words.</p>
+        </div>
+        <video
+            id="next-video"
+            class="hero-video"
+            muted
+            playsinline
+            preload="auto"
+        ></video>
+    </section>
+    <!-- Featured music pieces -->
+    <section id="featured-works" class="featured-works">
+        <h2 class="section-title">Featured Works</h2>
+        <div class="works-grid">
+          <a href="/works/incredible-orca-hunt-soundtrack.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/incredible_orca_hunt_soundtrack_preview.jpg">
+                <source src="/videos/incredible_orca_hunt_soundtrack_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">Incredible Orca Hunt (soundtrack)</span>
+              <span class="work-year">2024</span>
+            </div>
+          </a>
+          <a href="/works/el-cerrito.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/el_cerrito_preview.jpg">
+                <source src="/videos/el_cerrito_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">El Cerrito</span>
+              <span class="work-year">2025</span>
+            </div>
+          </a>
+          <a href="/works/together-again.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/together_again_preview.jpg">
+                <source src="/videos/together_again_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">Together Again</span>
+              <span class="work-year">2024</span>
+            </div>
+          </a>
+          <a href="/works/on-the-softest-bed-of-clouds.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/on_the_softest_bed_of_clouds_preview.jpg">
+                <source src="/videos/on_the_softest_bed_of_clouds_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">On the Softest Bed of Clouds</span>
+              <span class="work-year">2025</span>
+            </div>
+          </a>
+          <a href="/works/convincing-a-ghost-to-stay.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/convincing_a_ghost_to_stay_preview.jpg">
+                <source src="/videos/convincing_a_ghost_to_stay_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">Convincing a Ghost to Stay</span>
+              <span class="work-year">2023</span>
+            </div>
+          </a>
+          <a href="/works/elegie-for-that-which.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/elegie_for_that_which_preview.jpg">
+                <source src="/videos/elegie_for_that_which_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">An elegie for that which, in good time, is behind us</span>
+              <span class="work-year">2024</span>
+            </div>
+          </a>
+          <a href="/works/focusing-on-other-things.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/focusing_on_other_things_preview.jpg">
+                <source src="/videos/focusing_on_other_things_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">Focusing on Other Things</span>
+              <span class="work-year">2024</span>
+            </div>
+          </a>
+          <a href="/works/no-one-voices-answers.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/no_one_voices_answers_preview.jpg">
+                <source src="/videos/no_one_voices_answers_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">No one, voices, answers</span>
+              <span class="work-year">2024</span>
+            </div>
+          </a>
+          <a href="/works/incredible-orca-hunt.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/incredible_orca_hunt_preview.jpg">
+                <source src="/videos/incredible_orca_hunt_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">Incredible Orca Hunt</span>
+              <span class="work-year">2024</span>
+            </div>
+          </a>
+          <a href="/works/vignette.html" class="work-tile">
+            <div class="tile-arrow">↗</div>
+            <video class="tile-video" muted loop playsinline preload="none" poster="/images/vignette_preview.jpg">
+                <source src="/videos/vignette_preview.mp4" type="video/mp4">
+            </video>
+            <div class="tile-caption">
+              <span class="work-title">Vignette</span>
+              <span class="work-year">2025</span>
+            </div>
+          </a>
+        </div>
+    </section>
+    <section id="newsletter" class="newsletter-section">
+        <div class="newsletter-container animate-in">
+          <h2>Stay Connected</h2>
+          <p class="newsletter-intro">
+            Be the first to hear new music, upcoming performances, and behind-the-scenes moments.
+          </p>
+      
+          <form
+            id="newsletter-form"
+            action="https://buttondown.email/api/emails/embed-subscribe/yuvalcomposer"
+            method="post"
+            target="popupwindow"
+            onsubmit="handleSubscribe(event)"
+            class="embeddable-buttondown-form inline-form"
+          >
+            <div class="form-row">
+                <input type="text" name="metadata__first_name" id="bd-first-name" required placeholder="First name"/>
+                <input type="text" name="metadata__last_name" id="bd-last-name" placeholder="Last name (optional)" />
+            </div>
+
+            <div class="form-row email-submit-row">
+                <div class="input-wrapper">
+                <input type="email" name="email" id="bd-email" required placeholder="Your email address" />
+                </div>
+                <input type="submit" value="Subscribe" />
+            </div>
+            <p id="newsletter-response" class="newsletter-response"></p>
+          </form>
+          <p id="newsletter-response" class="newsletter-response"></p>
+      
+          <p class="newsletter-powered">
+            <a href="https://buttondown.email/refer/yuvalcomposer" target="_blank">Powered by Buttondown.</a>
+          </p>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <div class="about-flex-container">
+          <div class="about-image">
+            <img src="/images/yuval_headshot.jpg" alt="Yuval Medina headshot" />
+          </div>
+      
+          <div class="about-text">
+            <h2>About Yuval Medina</h2>
+            <p>
+              Yuval Medina is a composer and pianist who believes in the power of music to change our world.
+              A storyteller at heart, his music seeks to express all that cannot be said in words.
+              He is currently pursuing his master’s in classical composition at the Manhattan School of Music.
+            </p>
+      
+            <p>
+              His music was recently <a href="https://www.instagram.com/reel/DGvL_NBKN-J/" target="_blank">featured</a> by <em>Vanity Fair</em> during the Oscars ceremony,
+              accompanying stars including Adrien Brody, Olivia Wilde, and Andrew Garfield.
+              Yuval received the Tribeca New Music Merit Award for his piano cadenza
+              <a href="works/focusing-on-other-things.html" target="_blank"><em>Focusing on Other Things</em></a>, and was recently awarded an Honorable Mention
+              from the New York Youth Symphony’s First Music competition.
+            </p>
+      
+            <p>
+              You can follow <strong>@yuvalcomposer</strong> on
+              <a href="https://instagram.com/yuvalcomposer" target="_blank">Instagram</a>,
+              <a href="https://youtube.com/@yuvalcomposer" target="_blank">YouTube</a>, or
+              <a href="https://soundcloud.com/yuvalcomposer" target="_blank">SoundCloud</a>
+              to stay up to date with his latest work.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <div class="footer-social">
+          <a href="https://instagram.com/yuvalcomposer" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://youtube.com/@yuvalcomposer" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://open.spotify.com/artist/2wm4bS1SbtSlg77tJIkLMg?si=N450n3R-R9GAFBAUMMHL2Q" target="_blank" aria-label="Spotify">
+            <i class="fab fa-spotify"></i>
+          </a>
+          <a href="https://soundcloud.com/yuvalcomposer" target="_blank" aria-label="SoundCloud">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+          <a href="https://music.apple.com/us/artist/yuval-medina/1548315191" target="_blank" aria-label="Apple Music">
+            <i class="fab fa-apple"></i>
+          </a>
+        </div>
+      
+        <div class="footer-nav">
+          <a href="/about">About</a>
+          <a href="/works">Works</a>
+          <a href="/store">Store</a>
+          <a href="/contact">Contact</a>
+        </div>
+      
+        <div class="footer-credit">
+          <p>&copy; Yuval Medina 2025. All rights reserved.</p>
+        </div>
+      </footer>      
+  </body>
+  
+  <script src="/js/main.js"></script>
+  <script src="/js/sidebar.js"></script>
+  <script>
+    // Scroll animation
+    document.addEventListener("DOMContentLoaded", function () {
+      const container = document.querySelector(".newsletter-container");
+    
+      function revealNewsletter() {
+        const rect = container.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        const intro = document.querySelector(".newsletter-intro");
+        const footer = document.querySelector('.site-footer');
+        const about = document.querySelector('.about-section');
+    
+        if (rect.top <= windowHeight - 100) {
+          container.classList.add("visible");
+          intro.classList.add("visible");
+          footer.classList.add('visible');
+          about.classList.add('visible');
+          window.removeEventListener("scroll", revealNewsletter);
+        }
+        
+      }
+    
+      window.addEventListener("scroll", revealNewsletter);
+      revealNewsletter();
+    });
+    
+    // Handle inline submit message
+    function handleSubscribe(e) {
+        e.preventDefault();
+        const form = document.getElementById("newsletter-form");
+        const firstName = document.getElementById("bd-first-name").value.trim();
+        const lastName = document.getElementById("bd-last-name").value.trim();
+        const email = document.getElementById("bd-email").value.trim();
+        const response = document.getElementById("newsletter-response");
+
+        fetch("https://buttondown.email/api/emails/embed-subscribe/yuvalcomposer", {
+            method: "POST",
+            headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+            email,
+            "metadata__first_name": firstName,
+            "metadata__last_name": lastName,
+            }),
+        })
+            .then((res) => {
+                if (res.ok) {
+                    const namePart = firstName ? `, ${firstName}` : "";
+                    response.textContent = `🎉 You're subscribed${namePart}! Thank you.`;
+                    response.classList.add("visible");
+                    response.style.color = "#90ee90";
+                    form.reset();
+                } else {
+                    response.textContent = "❌ Something went wrong. Please try again.";
+                    response.style.color = "salmon";
+            }
+            })
+            .catch(() => {
+            response.textContent = "⚠️ Network error. Please try again.";
+            response.style.color = "salmon";
+            });
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const heroVideo = document.getElementById("hero-video");
+        
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  heroVideo.play();
+                } else {
+                  heroVideo.pause();
+                }
+              });
+            },
+            { threshold: 0.25 }
+          );
+        
+          observer.observe(heroVideo);
+        });
+        </script>
+        
+</body>
+</html>

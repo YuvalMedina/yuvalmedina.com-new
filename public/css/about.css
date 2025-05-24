@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+  
+.bio-section {
+    background: #0c0c0c;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .bio-container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Georgia', serif;
+    font-size: 1.05em;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.88);
+  }
+  
+  .bio-section.visible .bio-container {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .bio-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+  
+  .bio-container p {
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+  
+  .bio-container a {
+    color: #c56244;
+    text-decoration: none;
+  }
+  
+  .bio-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Headshot image */
+  .bio-headshot {
+    float: right;
+    margin: 6px 0 20px 40px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+  }
+  
+  .bio-content {
+    flex: 1;
+    min-width: 260px;
+  }
+
+  .bio-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-bottom: 1.2em;
+    color: white;
+  }
+  
+  .bio-content p {
+    margin-bottom: 1.4em;
+    text-align: justify;
+  }
+  
+  .bio-content a {
+    color: #c56244;
+    text-decoration: none;
+  }
+  
+  .bio-content a:hover {
+    text-decoration: underline;
+  }
