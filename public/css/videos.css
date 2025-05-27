@@ -1,0 +1,104 @@
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    padding: 60px 20px;
+    overflow: hidden;
+  }
+
+  @keyframes fadeSlideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .videos-header {
+    max-width: 900px;
+    margin: 0 auto 3em auto;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 0.8s ease-out forwards;
+  }
+
+  .videos-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .videos-header p {
+    font-size: 1.1em;
+    color: #ccc;
+  }
+
+  .videos-header a {
+    color: #c56244;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .videos-header a:hover {
+    text-decoration: underline;
+  }
+
+  .videos-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlideIn 0.8s ease-out forwards;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+  .video-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  .video-card h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.0em;
+    margin: 0;
+    color: white;
+  }
+
+  .video-card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.95em;
+    color: #aaa;
+    margin: 0 0 0.5em 0;
+  }
+
+  .video-card iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .youtube-link {
+    display: block;
+    text-align: center;
+    margin-top: 3em;
+  }
+
+  .youtube-link a {
+    color: #c56244;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+  }
+
+  .youtube-link a:hover {
+    text-decoration: underline;
+  }

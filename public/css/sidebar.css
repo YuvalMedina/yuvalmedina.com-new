@@ -51,6 +51,8 @@
   
   /* Sidebar base */
 .sidebar {
+    font-family: 'Helvetica Neue';
+    font-size: 1.0em;
     position: fixed;
     top: 0;
     left: -400px;

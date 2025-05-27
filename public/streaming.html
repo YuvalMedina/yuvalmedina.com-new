@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Streaming - Yuval Medina</title>
+  <link rel="stylesheet" href="/css/streaming.css" />
+  <link rel="stylesheet" href="/css/sidebar.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <!-- Hamburger icon -->
+    <div id="hamburger" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <!-- Sidebar menu -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <nav id="sidebar" class="sidebar">
+        <ul class="sidebar-primary">
+          <li><a href="/">Home</a></li>
+        </ul>
+        <hr class="sidebar-divider" />
+        <ul class="sidebar-secondary">
+            <li><a href="/store/index.html">Store</a></li>
+            <li><a href="/works/index.html">Catalog</a></li>
+            <li><a href="/videos.html">Videos</a></li>
+            <li><a href="/about.html">Full Bio</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="streaming-header">
+        <h1>Streaming</h1>
+        <p>A selection of featured tracks available on <a href="https://open.spotify.com/artist/YOUR_SPOTIFY_ID" target="_blank" class="platform-link">Spotify</a>, <a href="https://music.apple.com/artist/YOUR_APPLE_ID" target="_blank" class="platform-link">Apple Music</a>, and <a href="https://soundcloud.com/YOUR_SOUNDCLOUD_ID" target="_blank" class="platform-link">SoundCloud</a>.</p>
+      </div>
+    
+      <div id="streaming" class="streaming-container"></div>
+
+      <div class="artist-links">
+        <p>
+          Find more on:
+          <a href="https://open.spotify.com/artist/2wm4bS1SbtSlg77tJIkLMg" target="_blank">
+            <i class="fab fa-spotify"></i> Spotify
+          </a>
+          <a href="https://music.apple.com/artist/yuval-medina/1548315191" target="_blank">
+            <i class="fab fa-apple"></i> Apple Music
+          </a>
+          <a href="https://soundcloud.com/yuvalcomposer" target="_blank">
+            <i class="fab fa-soundcloud"></i> SoundCloud
+          </a>
+        </p>
+      </div>
+
+      <footer class="site-footer visible">
+        <div class="footer-social">
+          <a href="https://instagram.com/yuvalcomposer" target="_blank" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://youtube.com/@yuvalcomposer" target="_blank" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://open.spotify.com/artist/2wm4bS1SbtSlg77tJIkLMg" target="_blank" aria-label="Spotify">
+            <i class="fab fa-spotify"></i>
+          </a>
+          <a href="https://soundcloud.com/yuvalcomposer" target="_blank" aria-label="SoundCloud">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+          <a href="https://music.apple.com/us/artist/yuval-medina/1548315191" target="_blank" aria-label="Apple Music">
+            <i class="fab fa-apple"></i>
+          </a>
+        </div>
+      
+        <div class="footer-nav">
+          <a href="/about">About</a>
+          <a href="/works">Works</a>
+          <a href="/store">Store</a>
+          <a href="/contact">Contact</a>
+        </div>
+      
+        <div class="footer-credit">
+          <p>&copy; Yuval Medina 2025. All rights reserved.</p>
+        </div>
+      </footer>
+    
+      <script>
+        fetch('/works/works.json')
+          .then(res => res.json())
+          .then(data => {
+            const container = document.getElementById('streaming');
+            const featuredTracks = data.filter(w => w.featured && (w.media_preview?.type === 'spotify' || w.media_preview?.type === 'soundcloud'));
+    
+            featuredTracks.forEach((work, index) => {
+              const card = document.createElement('div');
+              card.className = 'streaming-card';
+    
+              card.innerHTML = `
+                <h2>${work.title}</h2>
+                <p>${work.subtitle || ''} ${work.year ? '(' + work.year + ')' : ''}</p>
+                <iframe src="${work.media_preview.embed}" allow="encrypted-media"></iframe>
+              `;
+              container.appendChild(card);
+            });
+          });
+      </script>
+    <script src="/js/sidebar.js"></script>
+</body>
+</html>

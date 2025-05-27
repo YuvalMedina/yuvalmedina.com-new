@@ -8,6 +8,7 @@ html, body {
     background: linear-gradient(145deg, #ffffff, #dbdbdb);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 body {
