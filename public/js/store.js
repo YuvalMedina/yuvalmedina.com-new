@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   // Load JSON data
-  const response = await fetch("/store/works.json");
+  const response = await fetch("/works/works.json");
 
   // Clear loader
   grid.innerHTML = "";
@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Render grid items
   function renderWorks(worksToRender) {
     grid.innerHTML = "";
-    worksToRender.forEach((work) => {
+  
+    worksToRender.forEach((work, index) => {
       const item = document.createElement("div");
       item.className = "store-item";
       item.innerHTML = `
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       item.addEventListener("click", () => openModal(work));
       grid.appendChild(item);
     });
-  } 
+  }
 
   // Render modal popup content
   function openModal(work) {
@@ -110,6 +111,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       return matchesType && matchesDifficulty && matchesInstrument;
     });
   
+    grid.classList.remove("visible");
+    void grid.offsetWidth; // force reflow
+    grid.classList.add("visible");
     renderWorks(filtered);
   }
   
@@ -119,4 +123,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const allWorks = await response.json();
   renderWorks(allWorks);
+  const urlParams = new URLSearchParams(window.location.search);
+  const workSlug = urlParams.get("w");
+
+  if (workSlug) {
+    const workToOpen = allWorks.find(work => work.slug === workSlug);
+    if (workToOpen) {
+      openModal(workToOpen);
+    }
+  }
+  grid.classList.add("visible");
 });

@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 60px 20px;
+    font-family: "Helvetica Neue", sans-serif;
+    background: #0a0a0a;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .work-container {
+    max-width: 800px;
+    margin-left: 100px;
+  }
+  
+  .work-title {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+  
+  .work-subtitle {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 1.5em;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .media-preview {
+    margin-bottom: 2em;
+  }
+  
+  .media-preview iframe {
+    width: 100%;
+    height: 360px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .work-details ul {
+    padding-left: 1.2em;
+  }
+  
+  #purchase-link {
+    margin-top: 2em;
+    text-align: center;
+  }
+  
+  #purchase-link a {
+    background: #c56244;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+  
+  #purchase-link a:hover {
+    background: #a94b30;
+  }
+
+  #work-description{
+    margin: 5%;
+  }
+
+  .work-description-text {
+    margin-top: 2em;
+    font-size: 1.05em;
+    color: #ddd;
+  }
+  
+  .work-description-text p {
+    margin-bottom: 1.2em;
+  }
+  
+  .work-description-text em {
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .work-quote {
+    margin-top: 2em;
+    padding-left: 1em;
+    border-left: 4px solid #c56244;
+    font-style: italic;
+    color: #bbb;
+  }
+  
+  .work-quote .quote-author {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: #888;
+  }
+  

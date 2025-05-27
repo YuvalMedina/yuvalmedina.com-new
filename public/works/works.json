@@ -1,7 +1,8 @@
 [
   {
     "title": "El Cerrito",
-    "link": "/works/el-cerrito.html",
+    "subtitle": "memories for chamber ensemble",
+    "link": "/works/el-cerrito",
     "slug": "el_cerrito",
     "instrumentation": "2 flutes, 1 oboe, 1 bass clarinet in Bb, 1 horn in F, 2 violins, 1 viola, 1 violoncello",
     "parts_included": "Full score and individual parts",
@@ -40,11 +41,13 @@
       "violin",
       "viola",
       "cello"
-    ]
+    ],
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t\"<em>El Cerrito</em> is named after the street where I spent my formative years before graduating high school and moving away from home. A few months ago, I rediscovered an old recording of an improvisation I had played that summer on our family’s well-worn piano. The descending scales, meticulous pedaling, delicate sustains and releases, and fleeting melodic fragments instantly transported me back to that time. Remarkably, I remembered every note of the improvisation, even though I hadn’t listened to it in over seven years.\n\t</p>\n\t<p>\n\t\tThe piece is subtitled <em>'Memories'</em> not only because of its origins in the distant past, but because its structure mirrors the experience of recalling a memory. At times, moments emerge vividly from the musical textures, while at others, they remain obscured, shrouded in a hazy, déjà vu-like veil.\"\n\t</p>\n\t<blockquote class=\"work-quote\">\n\t\t“All we have to decide is what to do with the time that is given us.”<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Waking Up Mid-Flight",
-    "link": "/works/waking-up-mid-flight.html",
+    "subtitle": "caprice for small orchestra",
+    "link": "/works/waking-up-mid-flight",
     "slug": "waking_up_mid_flight",
     "instrumentation": "Small orchestra: 2 flutes, 2 oboes, 2 clarinets, 1 bassoon, 1 contrabassoon, 2 horns in F, 2 trumpets in Bb, 1 tenor trombone, 1 tuba, timpani, vibraphone, wood blocks, harp, piano, strings",
     "parts_included": "Full score and individual parts",
@@ -116,7 +119,8 @@
   },
   {
     "title": "Unrequited Love (fantasy in mixolydian)",
-    "link": "/works/unrequited-love.html",
+    "subtitle": "for solo piano",
+    "link": "/works/unrequited-love",
     "slug": "unrequited_love",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -145,7 +149,8 @@
   },
   {
     "title": "Sonata in D",
-    "link": "/works/sonata-in-d.html",
+    "subtitle": "for solo piano",
+    "link": "/works/sonata-in-d",
     "slug": "sonata_in_d",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -174,7 +179,8 @@
   },
   {
     "title": "Sleepwalking",
-    "link": "/works/sleepwalking.html",
+    "subtitle": "five fits for solo piano",
+    "link": "/works/sleepwalking",
     "slug": "sleepwalking",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -203,7 +209,8 @@
   },
   {
     "title": "Moving",
-    "link": "/works/moving.html",
+    "subtitle": "trio for soprano saxophone, violoncello, and piano",
+    "link": "/works/moving",
     "slug": "moving",
     "instrumentation": "Soprano saxophone, violoncello, and piano",
     "parts_included": "Full score, saxophone, and violoncello parts",
@@ -238,7 +245,8 @@
   },
   {
     "title": "Mariposa",
-    "link": "/works/mariposa.html",
+    "subtitle": "for mezzo-soprano and string quartet",
+    "link": "/works/mariposa",
     "slug": "mariposa",
     "instrumentation": "Mezzo soprano and string quartet",
     "parts_included": "Full score and individual parts",
@@ -276,7 +284,8 @@
   },
   {
     "title": "Improvisation on a Theme by Amy Beach",
-    "link": "/works/improvisation-on-a-theme-by-amy-beach.html",
+    "subtitle": "for zhongruan",
+    "link": "/works/improvisation-on-a-theme-by-amy-beach",
     "slug": "improvisation_amy_beach",
     "instrumentation": "Solo zhongruan (tenor ruan)",
     "parts_included": "Full score",
@@ -305,7 +314,8 @@
   },
   {
     "title": "Homage to Naomi Shemer / עוד יש מפרש לבן באופק",
-    "link": "/works/homage-to-naomi-shemer.html",
+    "subtitle": "for clarinet in Bb, violoncello, and piano",
+    "link": "/works/homage-to-naomi-shemer",
     "slug": "homage_naomi_shemer",
     "instrumentation": "Clarinet in Bb, violoncello, and piano",
     "parts_included": "Full score, clarinet, and violoncello parts",
@@ -341,7 +351,8 @@
   },
   {
     "title": "Fleeting Image",
-    "link": "/works/fleeting-image.html",
+    "subtitle": "for solo piano",
+    "link": "/works/fleeting-image",
     "slug": "fleeting_image",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -370,7 +381,8 @@
   },
   {
     "title": "Five Preludes",
-    "link": "/works/five-preludes.html",
+    "subtitle": "for piano",
+    "link": "/works/five-preludes",
     "slug": "five_preludes",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -399,7 +411,8 @@
   },
   {
     "title": "F",
-    "link": "/works/f.html",
+    "subtitle": "for solo piano",
+    "link": "/works/f",
     "slug": "f",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -424,7 +437,8 @@
   },
   {
     "title": "Controlled Chaos",
-    "link": "/works/controlled-chaos.html",
+    "subtitle": "for tenor saxophone",
+    "link": "/works/controlled-chaos",
     "slug": "controlled_chaos",
     "instrumentation": "Solo tenor saxophone",
     "parts_included": "Full score",
@@ -449,7 +463,8 @@
   },
   {
     "title": "Caprice",
-    "link": "/works/caprice.html",
+    "subtitle": "for solo piano",
+    "link": "/works/caprice",
     "slug": "caprice",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -475,7 +490,8 @@
   },
   {
     "title": "Birds of a Feather",
-    "link": "/works/birds-of-a-feather.html",
+    "subtitle": "for flute and clarinet in Bb",
+    "link": "/works/birds-of-a-feather",
     "slug": "birds_of_a_feather",
     "instrumentation": "Flute and clarinet in Bb",
     "parts_included": "Full score and individual parts",
@@ -505,7 +521,8 @@
   },
   {
     "title": "Bicontinental Scherzo",
-    "link": "/works/bicontinental-scherzo.html",
+    "subtitle": "for violoncello duo",
+    "link": "/works/bicontinental-scherzo",
     "slug": "bicontinental_scherzo",
     "instrumentation": "Violoncello and viola OR 2 violoncellos",
     "parts_included": "Full score with both versions included",
@@ -531,7 +548,8 @@
   },
   {
     "title": "My Child",
-    "link": "/works/my-child.html",
+    "subtitle": "scena for mezzo-soprano and piano",
+    "link": "/works/my-child",
     "slug": "my_child",
     "instrumentation": "Mezzo-soprano voice and piano",
     "parts_included": "Full score and voice part",
@@ -563,7 +581,8 @@
   },
   {
     "title": "An elegie for that which, in good time, is behind us",
-    "link": "/works/elegie-for-that-which.html",
+    "subtitle": "for violoncello and piano",
+    "link": "/works/elegie-for-that-which",
     "slug": "elegie_for_that_which",
     "instrumentation": "Violoncello and piano",
     "parts_included": "Full score and violoncello part",
@@ -596,7 +615,8 @@
   },
   {
     "title": "Convincing a Ghost to Stay",
-    "link": "/works/convincing-a-ghost-to-stay.html",
+    "subtitle": "cadenza for solo violoncello",
+    "link": "/works/convincing-a-ghost-to-stay",
     "slug": "convincing_a_ghost_to_stay",
     "instrumentation": "Solo violoncello",
     "parts_included": "Full score",
@@ -625,7 +645,8 @@
   },
   {
     "title": "Vignette",
-    "link": "/works/vignette.html",
+    "subtitle": "for solo piano",
+    "link": "/works/vignette",
     "slug": "vignette",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",
@@ -651,7 +672,8 @@
   },
   {
     "title": "Incredible Orca Hunt",
-    "link": "/works/incredible-orca-hunt.html",
+    "subtitle": "for string quartet",
+    "link": "/works/incredible-orca-hunt",
     "slug": "incredible_orca_hunt",
     "instrumentation": "String quartet",
     "parts_included": "Full score and individual parts",
@@ -687,7 +709,8 @@
   },
   {
     "title": "Together Again",
-    "link": "/works/together-again.html",
+    "subtitle": "for string quartet",
+    "link": "/works/together-again",
     "slug": "together_again",
     "instrumentation": "String quartet",
     "parts_included": "Full score and individual parts",
@@ -723,7 +746,8 @@
   },
   {
     "title": "No one, voices, answers",
-    "link": "/works/no-one-voices-answers.html",
+    "subtitle": "for string quartet",
+    "link": "/works/no-one-voices-answers",
     "slug": "no_one_voices_answers",
     "instrumentation": "String quartet",
     "parts_included": "Full score and individual parts",
@@ -759,7 +783,8 @@
   },
   {
     "title": "Focusing on Other Things",
-    "link": "/works/focusing-on-other-things.html",
+    "subtitle": "for solo piano",
+    "link": "/works/focusing-on-other-things",
     "slug": "focusing_on_other_things",
     "instrumentation": "Solo piano",
     "parts_included": "Full score",

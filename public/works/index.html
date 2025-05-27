@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catalog | Yuval Medina</title>
+  <link rel="stylesheet" href="/css/works.css" />
+  <link rel="stylesheet" href="/css/sidebar.css" />
+</head>
+<body>
+  <!-- Hamburger icon -->
+  <div id="hamburger" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+    <!-- Sidebar menu -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <nav id="sidebar" class="sidebar">
+        <ul class="sidebar-primary">
+        <li><a href="/">Home</a></li>
+        </ul>
+        <hr class="sidebar-divider" />
+        <ul class="sidebar-secondary">
+            <li><a href="/store/index.html">Store</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="streaming.html">Streaming</a></li>
+            <li><a href="about.html">Full Bio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+  <section class="catalog-section">
+    <h1>Catalog</h1>
+    <div class="catalog-filters">
+      <select id="filter-type">
+        <option value="">All Types</option>
+        <option value="orchestral">Orchestral</option>
+        <option value="chamber">Chamber</option>
+        <option value="quartet">Quartet</option>
+        <option value="trio">Trio</option>
+        <option value="duo">Duo</option>
+        <option value="solo">Solo</option>
+      </select>
+      <select id="filter-difficulty">
+        <option value="">All Difficulties</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <input type="text" id="filter-instrument" placeholder="Search instruments..." />
+    </div>
+
+    <div id="catalog-grid" class="catalog-grid">
+      <!-- dynamically inserted cards -->
+    </div>
+  </section>
+
+  <script src="/js/works.js"></script>
+  <script src="/js/sidebar.js"></script>
+</body>
+</html>

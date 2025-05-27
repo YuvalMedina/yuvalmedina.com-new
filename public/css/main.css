@@ -45,6 +45,7 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    display: grid;
     color: rgba(255, 255, 255, 0.9); /* ✅ subtle transparency */
   }
   
@@ -62,10 +63,10 @@
     word-break: break-word;
   }  
   
-  .hero-line:last-child {
+  /*.hero-line:last-child {
     font-style: italic;
     color: rgba(255, 255, 255, 0.85);
-  }
+  }*/
 
   .hero-line {
     opacity: 0;

@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    margin-left: 10%;
+    font-family: "Helvetica Neue", sans-serif;
+    background: #0a0a0a;
+    color: white;
+  }
+  
+  .catalog-section {
+    padding: 100px 20px 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .catalog-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  
+  .catalog-filters select,
+  .catalog-filters input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: none;
+    background: #1a1a1a;
+    color: white;
+    font-size: 0.95em;
+  }
+  
+  .catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+    padding: 30px 20px;
+  }
+  
+  .catalog-item {
+    display: block;
+    position: relative;
+    isolation: isolate;
+    aspect-ratio: 4 / 3;
+    max-height: 320px;
+    overflow: hidden;
+    background: #111;
+    border-radius: 12px;
+  }
+  
+  .work-tile:hover {
+    transform: translateY(-4px);
+  }
+  
+  .tile-video, .tile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; /* Add this */
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .tile-caption {
+    position: absolute;
+    bottom: 0;
+    padding: 12px 16px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    align-items: flex-end;
+  }
+  
+  .tile-arrow {
+    position: absolute;
+    z-index: 2; /* Ensure it's above the video */
+    pointer-events: none; /* Prevents accidental interaction issues */
+    top: 5%;
+    right: 5%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    transition: color 0.2s ease;
+  }
+  
+  .work-title-block {
+    position: absolute;
+    bottom: 0;
+    padding: 12px 16px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+    display: grid;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    align-items: flex-end;
+    z-index: 2; /* Ensure it's above the video */
+    pointer-events: none; /* Prevents accidental interaction issues */
+  }
+  
+  .work-tile:hover .tile-arrow {
+    color: white;
+  }
+  
+  .work-subtitle {
+    font-style: italic;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.2;
+  }
+
+  .catalog-grid a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .catalog-grid a .work-title,
+.catalog-grid a .work-subtitle,
+.catalog-grid a .work-year,
+.tile-arrow {
+  color: inherit;
+  text-decoration: inherit;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.catalog-grid a:hover .work-title,
+.catalog-grid a:hover .work-subtitle,
+.catalog-grid a:hover .work-year,
+.catalog-grid a:hover .tile-arrow {
+  color: #c54d44;
+}
+  
+.catalog-grid a:hover .work-title {
+    text-decoration: underline;
+  }
+  
+  .catalog-grid a:visited {
+    color: white;
+  }

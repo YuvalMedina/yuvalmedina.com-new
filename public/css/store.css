@@ -1,15 +1,24 @@
 body {
   margin: 0;
-  background-color: #0c0c0c;
+  background-color: #303030;
   color: white;
   font-family: 'Inter', sans-serif;
+}
+
+/* override hamburger color*/
+.hamburger span {
+  background-color: rgba(20, 20, 20, 0.6) !important;
+}
+
+.hamburger.active span {
+  background-color: white !important;
 }
 
 .store-page {
   display: flex;
   padding: 60px 20px;
   gap: 40px;
-  background: linear-gradient(145deg, #0e0e0e, #151515);
+  background: linear-gradient(145deg, #ffffff, #dbdbdb);
   padding-left: 260px; /* if sidebar */
   padding-top: 80px;
   min-height: 100vh;
@@ -19,6 +28,16 @@ body {
   display: block;
   padding-left: 260px; /* if you want space for the nav */
   padding-top: 80px;
+}
+
+.filters-container{
+  background: rgba(20, 20, 20, 0.6);
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-bottom: 5%;
+  border-radius: 8px;
 }
 
 .filters {
@@ -80,10 +99,20 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
   margin: 0 30px 40px 30px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.store-grid.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .store-item {
-  background: rgba(255, 255, 255, 0.03);
+  aspect-ratio: 4 / 3;
+  max-width: 300px;
+  background: rgba(20,20, 20, 0.6);
   border-radius: 12px;
   padding: 16px;
   text-align: center;
@@ -156,6 +185,20 @@ body {
   overflow-y: auto;
   position: relative;
   animation: fadeIn 0.4s ease;
+}
+
+#store-modal a {
+  color: white;                  /* or your preferred color */
+  text-decoration: none;         /* removes underline */
+}
+
+#store-modal a:hover {
+  color: #c56244;                /* subtle hover effect */
+  text-decoration: underline;   /* optional: underline on hover */
+}
+
+#store-modal a:visited {
+  color: white;                  /* overrides purple visited color */
 }
 
 .modal-close {

@@ -21,14 +21,10 @@
   <div id="sidebar-overlay" class="sidebar-overlay"></div>
   <nav id="sidebar" class="sidebar">
     <ul class="sidebar-primary">
-      <li><a href="/#hero">Home</a></li>
-      <li><a href="/#featured-works">Works</a></li>
-      <li><a href="/#newsletter">Subscribe</a></li>
-      <li><a href="/#about">About</a></li>
+      <li><a href="/">Home</a></li>
     </ul>
     <hr class="sidebar-divider" />
     <ul class="sidebar-secondary">
-      <li><a href="/store/index.html">Store</a></li>
       <li><a href="/works/index.html">Catalog</a></li>
       <li><a href="/videos.html">Videos</a></li>
       <li><a href="/streaming.html">Streaming</a></li>
@@ -38,34 +34,36 @@
   </nav>
 
   <div class="store-page with-sidebar">
-    <h2>Store</h2>
-    <section class="filters">
-      <div class="filter-group">
-        <label>Type</label>
-        <select id="filter-type">
-          <option value="">All</option>
-          <option value="orchestral">Orchestral</option>
-          <option value="chamber">Chamber</option>
-          <option value="quartet">Quartet</option>
-          <option value="trio">Trio</option>
-          <option value="duo">Duo</option>
-          <option value="solo">Solo</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label>Difficulty</label>
-        <select id="filter-difficulty">
-          <option value="">All</option>
-          <option value="beginner">Beginner</option>
-          <option value="intermediate">Intermediate</option>
-          <option value="advanced">Advanced</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label>Instrument</label>
-        <input type="text" id="filter-instrument" placeholder="e.g., flute, violin" />
-      </div>
-    </section>
+    <div class="filters-container">
+      <h2>Store</h2>
+      <section class="filters">
+        <div class="filter-group">
+          <label>Type</label>
+          <select id="filter-type">
+            <option value="">All</option>
+            <option value="orchestral">Orchestral</option>
+            <option value="chamber">Chamber</option>
+            <option value="quartet">Quartet</option>
+            <option value="trio">Trio</option>
+            <option value="duo">Duo</option>
+            <option value="solo">Solo</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Difficulty</label>
+          <select id="filter-difficulty">
+            <option value="">All</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Instrument</label>
+          <input type="text" id="filter-instrument" placeholder="e.g., flute, violin" />
+        </div>
+      </section>
+    </div>
   
     <main class="store-grid" id="store-grid">
       <!-- Items dynamically injected here -->
