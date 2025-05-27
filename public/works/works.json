@@ -1,5 +1,181 @@
 [
   {
+    "title": "An elegie for that which, in good time, is behind us",
+    "subtitle": "for violoncello and piano",
+    "link": "/works/elegie-for-that-which",
+    "slug": "elegie_for_that_which",
+    "instrumentation": "Violoncello and piano",
+    "parts_included": "Full score and violoncello part",
+    "pages": {
+      "full_score": 23,
+      "violoncello": 8
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "13 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "HRFYLLV962KHS",
+    "image": "/images/scores/elegie_for_that_which.jpg",
+    "type": "Duo",
+    "tags": [
+      "duo",
+      "intermediate",
+      "advanced",
+      "cello",
+      "piano"
+    ],
+    "instrument_filters": [
+      "cello",
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "Ba3b0dP7ne4"
+    },
+    "featured": true
+  },
+  {
+    "title": "Bicontinental Scherzo",
+    "subtitle": "for violoncello duo",
+    "link": "/works/bicontinental-scherzo",
+    "slug": "bicontinental_scherzo",
+    "instrumentation": "Violoncello and viola OR 2 violoncellos",
+    "parts_included": "Full score with both versions included",
+    "pages": {
+      "full_score": 8
+    },
+    "difficulty": "Intermediate",
+    "duration": "5 minutes",
+    "year": 2023,
+    "ascap_registered": true,
+    "paypal_button_id": "AVFP3TQB4QYSN",
+    "image": "/images/scores/bicontinental_scherzo.jpg",
+    "type": "Duo",
+    "tags": [
+      "duo",
+      "intermediate",
+      "strings"
+    ],
+    "instrument_filters": [
+      "cello",
+      "viola"
+    ]
+  },
+  {
+    "title": "Birds of a Feather",
+    "subtitle": "for flute and clarinet in Bb",
+    "link": "/works/birds-of-a-feather",
+    "slug": "birds_of_a_feather",
+    "instrumentation": "Flute and clarinet in Bb",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 19,
+      "flute": 12,
+      "clarinet": 11
+    },
+    "difficulty": "Advanced",
+    "duration": "7.5 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "83AHWGJNW75X2",
+    "image": "/images/scores/birds_of_a_feather.jpg",
+    "type": "Duo",
+    "tags": [
+      "duo",
+      "flute",
+      "clarinet",
+      "advanced",
+      "winds"
+    ],
+    "instrument_filters": [
+      "flute",
+      "clarinet"
+    ]
+  },
+  {
+    "title": "Caprice",
+    "subtitle": "for solo piano",
+    "link": "/works/caprice",
+    "slug": "caprice",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 7
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "4.5 minutes",
+    "year": 2025,
+    "ascap_registered": true,
+    "paypal_button_id": "MJGMHVM4QS8SA",
+    "image": "/images/scores/caprice.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "intermediate",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "piano"
+    ]
+  },
+  {
+    "title": "Controlled Chaos",
+    "subtitle": "for tenor saxophone",
+    "link": "/works/controlled-chaos",
+    "slug": "controlled_chaos",
+    "instrumentation": "Solo tenor saxophone",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 10
+    },
+    "difficulty": "Advanced",
+    "duration": "10 minutes",
+    "year": 2019,
+    "ascap_registered": true,
+    "paypal_button_id": "24JRAKMAPEVDL",
+    "image": "/images/scores/controlled_chaos.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "saxophone",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "saxophone"
+    ]
+  },
+  {
+    "title": "Convincing a Ghost to Stay",
+    "subtitle": "cadenza for solo violoncello",
+    "link": "/works/convincing-a-ghost-to-stay",
+    "slug": "convincing_a_ghost_to_stay",
+    "instrumentation": "Solo violoncello",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 9
+    },
+    "difficulty": "Advanced",
+    "duration": "10 minutes",
+    "year": 2023,
+    "ascap_registered": true,
+    "paypal_button_id": "P48VRCD7ZJQQA",
+    "image": "/images/scores/convincing_ghost.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "cello",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "cello"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "8LH-11yfnaQ"
+    }
+  },
+  {
     "title": "El Cerrito",
     "subtitle": "memories for chamber ensemble",
     "link": "/works/el-cerrito",
@@ -42,7 +218,533 @@
       "viola",
       "cello"
     ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "h-7at9DUDLY"
+    },
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t\"<em>El Cerrito</em> is named after the street where I spent my formative years before graduating high school and moving away from home. A few months ago, I rediscovered an old recording of an improvisation I had played that summer on our family’s well-worn piano. The descending scales, meticulous pedaling, delicate sustains and releases, and fleeting melodic fragments instantly transported me back to that time. Remarkably, I remembered every note of the improvisation, even though I hadn’t listened to it in over seven years.\n\t</p>\n\t<p>\n\t\tThe piece is subtitled <em>'Memories'</em> not only because of its origins in the distant past, but because its structure mirrors the experience of recalling a memory. At times, moments emerge vividly from the musical textures, while at others, they remain obscured, shrouded in a hazy, déjà vu-like veil.\"\n\t</p>\n\t<blockquote class=\"work-quote\">\n\t\t“All we have to decide is what to do with the time that is given us.”<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>"
+  },
+  {
+    "title": "F",
+    "subtitle": "for solo piano",
+    "link": "/works/f",
+    "slug": "f",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 10
+    },
+    "difficulty": "Advanced",
+    "duration": "7 minutes",
+    "year": 2025,
+    "ascap_registered": true,
+    "paypal_button_id": "PRQBKDFACXWNW",
+    "image": "/images/scores/f.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "piano"
+    ]
+  },
+  {
+    "title": "Five Preludes",
+    "subtitle": "for piano",
+    "link": "/works/five-preludes",
+    "slug": "five_preludes",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 17
+    },
+    "difficulty": "Intermediate",
+    "duration": "7 minutes",
+    "year": 2016,
+    "ascap_registered": true,
+    "paypal_button_id": "8HSZGXR6BKFPJ",
+    "image": "/images/scores/five_preludes.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "intermediate"
+    ],
+    "instrument_filters": [
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "qFOrqKVbb9E"
+    }
+  },
+  {
+    "title": "Fleeting Image",
+    "subtitle": "for solo piano",
+    "link": "/works/fleeting-image",
+    "slug": "fleeting_image",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 2
+    },
+    "difficulty": "Beginner",
+    "duration": "1.5 minutes",
+    "year": 2017,
+    "ascap_registered": true,
+    "paypal_button_id": "6EB2J7W8FAGTC",
+    "image": "/images/scores/fleeting_image.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "beginner"
+    ],
+    "instrument_filters": [
+      "piano"
+    ],
+    "media_preview": {
+      "type": "spotify",
+      "id": "https://open.spotify.com/track/6I55PEWBfOQdGLdxsgpAc1?si=3a1ca7d508a9418c"
+    }
+  },
+  {
+    "title": "Focusing on Other Things",
+    "subtitle": "for solo piano",
+    "link": "/works/focusing-on-other-things",
+    "slug": "focusing_on_other_things",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 16
+    },
+    "difficulty": "Advanced",
+    "duration": "7.5 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "4KBERJZAYR5YQ",
+    "image": "/images/scores/focusing_on_other_things.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "T-qgC0ttAUY"
+    },
+    "featured": true
+  },
+  {
+    "title": "Homage to Naomi Shemer / עוד יש מפרש לבן באופק",
+    "subtitle": "for clarinet in Bb, violoncello, and piano",
+    "link": "/works/homage-to-naomi-shemer",
+    "slug": "homage_naomi_shemer",
+    "instrumentation": "Clarinet in Bb, violoncello, and piano",
+    "parts_included": "Full score, clarinet, and violoncello parts",
+    "pages": {
+      "full_score": 53,
+      "clarinet": 12,
+      "violoncello": 13
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "15 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "N2P3B8NHNC3CW",
+    "image": "/images/scores/homage_naomi_shemer.jpg",
+    "type": "Trio",
+    "tags": [
+      "chamber",
+      "clarinet",
+      "cello",
+      "piano",
+      "intermediate",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "clarinet",
+      "cello",
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "TeBceWdz5gU"
+    }
+  },
+  {
+    "title": "Improvisation on a Theme by Amy Beach",
+    "subtitle": "for zhongruan",
+    "link": "/works/improvisation-amy-beach",
+    "slug": "improvisation_amy_beach",
+    "instrumentation": "Solo zhongruan (tenor ruan)",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 7
+    },
+    "difficulty": "Advanced",
+    "duration": "8 minutes",
+    "year": 2023,
+    "ascap_registered": true,
+    "paypal_button_id": "KAMW7G5SH4YQL",
+    "image": "/images/scores/improvisation_amy_beach.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "zhongruan",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "zhongruan"
+    ],
+    "media_preview": {
+      "type": "soundcloud",
+      "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1733658294&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    },
+    "featured": true
+  },
+  {
+    "title": "Incredible Orca Hunt",
+    "subtitle": "for string quartet",
+    "link": "/works/incredible-orca-hunt",
+    "slug": "incredible_orca_hunt",
+    "instrumentation": "String quartet",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 17,
+      "violin_I": 4,
+      "violin_II": 3,
+      "viola": 3,
+      "violoncello": 3
+    },
+    "difficulty": "Intermediate",
+    "duration": "5.5 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "3MK57L6A6HXR6",
+    "image": "/images/scores/incredible_orca_hunt.jpg",
+    "type": "Quartet",
+    "tags": [
+      "chamber",
+      "quartet",
+      "intermediate",
+      "strings"
+    ],
+    "instrument_filters": [
+      "violin",
+      "viola",
+      "cello"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "57uQWhudlWM"
+    }
+  },
+  {
+    "title": "Mariposa",
+    "subtitle": "for mezzo-soprano and string quartet",
+    "link": "/works/mariposa",
+    "slug": "mariposa",
+    "instrumentation": "Mezzo soprano and string quartet",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 14,
+      "voice": 2,
+      "violin_I": 3,
+      "violin_II": 3,
+      "viola": 3,
+      "violoncello": 4
+    },
+    "difficulty": "Intermediate",
+    "duration": "5.5 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "V4BJUZTQFXNVS",
+    "image": "/images/scores/mariposa.jpg",
+    "type": "Vocal Chamber",
+    "tags": [
+      "vocal",
+      "chamber",
+      "intermediate",
+      "strings"
+    ],
+    "instrument_filters": [
+      "mezzo-soprano",
+      "violin",
+      "viola",
+      "cello"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "yoxKm3SD3Cs"
+    }
+  },
+  {
+    "title": "Moving",
+    "subtitle": "trio for soprano saxophone, violoncello, and piano",
+    "link": "/works/moving",
+    "slug": "moving",
+    "instrumentation": "Soprano saxophone, violoncello, and piano",
+    "parts_included": "Full score, saxophone, and violoncello parts",
+    "pages": {
+      "full_score": 31,
+      "saxophone": 7,
+      "violoncello": 6
+    },
+    "difficulty": "Intermediate",
+    "duration": "10 minutes",
+    "year": 2023,
+    "ascap_registered": true,
+    "paypal_button_id": "YKUBUPWBKY79W",
+    "image": "/images/scores/moving.jpg",
+    "type": "Trio",
+    "tags": [
+      "chamber",
+      "intermediate",
+      "saxophone",
+      "cello",
+      "piano"
+    ],
+    "instrument_filters": [
+      "saxophone",
+      "cello",
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "fqGWFa89ZGo"
+    }
+  },
+  {
+    "title": "My Child",
+    "subtitle": "scena for mezzo-soprano and piano",
+    "link": "/works/my-child",
+    "slug": "my_child",
+    "instrumentation": "Mezzo-soprano voice and piano",
+    "parts_included": "Full score and voice part",
+    "pages": {
+      "full_score": 14,
+      "voice": 4
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "11.5 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "6J2SCCNMQUE8S",
+    "image": "/images/scores/my_child.jpg",
+    "type": "Vocal",
+    "tags": [
+      "vocal",
+      "piano",
+      "intermediate",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "mezzo-soprano",
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "E32cZVoJkyA"
+    }
+  },
+  {
+    "title": "No one, voices, answers",
+    "subtitle": "for string quartet",
+    "link": "/works/no-one-voices-answers",
+    "slug": "no_one_voices_answers",
+    "instrumentation": "String quartet",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 25,
+      "violin_I": 8,
+      "violin_II": 9,
+      "viola": 9,
+      "violoncello": 9
+    },
+    "difficulty": "Advanced",
+    "duration": "16.5 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "6UDVSSKM7K7ZJ",
+    "image": "/images/scores/no_one_voices_answers.jpg",
+    "type": "Quartet",
+    "tags": [
+      "chamber",
+      "quartet",
+      "advanced",
+      "strings"
+    ],
+    "instrument_filters": [
+      "violin",
+      "viola",
+      "cello"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "tEO_5tmE-vk"
+    }
+  },
+  {
+    "title": "Sleepwalking",
+    "subtitle": "five fits for solo piano",
+    "link": "/works/sleepwalking",
+    "slug": "sleepwalking",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 9
+    },
+    "difficulty": "Advanced",
+    "duration": "6 minutes",
+    "year": 2019,
+    "ascap_registered": true,
+    "paypal_button_id": "K77QSF9CCDNGE",
+    "image": "/images/scores/sleepwalking.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "jy3bvoyzTAg"
+    }
+  },
+  {
+    "title": "Sonata in D",
+    "subtitle": "for solo piano",
+    "link": "/works/sonata-in-d",
+    "slug": "sonata_in_d",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 10
+    },
+    "difficulty": "Intermediate",
+    "duration": "7 minutes",
+    "year": 2016,
+    "ascap_registered": true,
+    "paypal_button_id": "9AGPR349S4BS4",
+    "image": "/images/scores/sonata_in_d.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "intermediate"
+    ],
+    "instrument_filters": [
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "-8XOZSPxPqM"
+    }
+  },
+  {
+    "title": "Together Again",
+    "subtitle": "for string quartet",
+    "link": "/works/together-again",
+    "slug": "together_again",
+    "instrumentation": "String quartet",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 22,
+      "violin_I": 7,
+      "violin_II": 5,
+      "viola": 5,
+      "violoncello": 6
+    },
+    "difficulty": "Intermediate",
+    "duration": "9 minutes",
+    "year": 2024,
+    "ascap_registered": true,
+    "paypal_button_id": "WA874RGKHDX3W",
+    "image": "/images/scores/together_again.jpg",
+    "type": "Quartet",
+    "tags": [
+      "chamber",
+      "quartet",
+      "intermediate",
+      "strings"
+    ],
+    "instrument_filters": [
+      "violin",
+      "viola",
+      "cello"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "dYjIYc4saeo"
+    },
+    "featured": true
+  },
+  {
+    "title": "Unrequited Love (fantasy in mixolydian)",
+    "subtitle": "for solo piano",
+    "link": "/works/unrequited-love",
+    "slug": "unrequited_love",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 4
+    },
+    "difficulty": "Intermediate",
+    "duration": "4 minutes",
+    "year": 2017,
+    "ascap_registered": true,
+    "paypal_button_id": "EUWNNL66RZMPL",
+    "image": "/images/scores/unrequited_love.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "intermediate"
+    ],
+    "instrument_filters": [
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "gPytOH2APBM"
+    }
+  },
+  {
+    "title": "Vignette",
+    "subtitle": "for solo piano",
+    "link": "/works/vignette",
+    "slug": "vignette",
+    "instrumentation": "Solo piano",
+    "parts_included": "Full score",
+    "pages": {
+      "full_score": 13
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "6 minutes",
+    "year": 2025,
+    "ascap_registered": true,
+    "paypal_button_id": "E6EEC2Y9JZKVJ",
+    "image": "/images/scores/vignette.jpg",
+    "type": "Solo",
+    "tags": [
+      "solo",
+      "piano",
+      "intermediate",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "piano"
+    ]
   },
   {
     "title": "Waking Up Mid-Flight",
@@ -115,704 +817,6 @@
     "media_preview": {
       "type": "soundcloud",
       "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1604626878&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-    },
-    "featured": true
-  },
-  {
-    "title": "Unrequited Love (fantasy in mixolydian)",
-    "subtitle": "for solo piano",
-    "link": "/works/unrequited-love",
-    "slug": "unrequited_love",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 4
-    },
-    "difficulty": "Intermediate",
-    "duration": "4 minutes",
-    "year": 2017,
-    "ascap_registered": true,
-    "paypal_button_id": "EUWNNL66RZMPL",
-    "image": "/images/scores/unrequited_love.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "intermediate"
-    ],
-    "instrument_filters": [
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "gPytOH2APBM"
-    }
-  },
-  {
-    "title": "Sonata in D",
-    "subtitle": "for solo piano",
-    "link": "/works/sonata-in-d",
-    "slug": "sonata_in_d",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 10
-    },
-    "difficulty": "Intermediate",
-    "duration": "7 minutes",
-    "year": 2016,
-    "ascap_registered": true,
-    "paypal_button_id": "9AGPR349S4BS4",
-    "image": "/images/scores/sonata_in_d.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "intermediate"
-    ],
-    "instrument_filters": [
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "-8XOZSPxPqM"
-    }
-  },
-  {
-    "title": "Sleepwalking",
-    "subtitle": "five fits for solo piano",
-    "link": "/works/sleepwalking",
-    "slug": "sleepwalking",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 9
-    },
-    "difficulty": "Advanced",
-    "duration": "6 minutes",
-    "year": 2019,
-    "ascap_registered": true,
-    "paypal_button_id": "K77QSF9CCDNGE",
-    "image": "/images/scores/sleepwalking.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "jy3bvoyzTAg"
-    }
-  },
-  {
-    "title": "Moving",
-    "subtitle": "trio for soprano saxophone, violoncello, and piano",
-    "link": "/works/moving",
-    "slug": "moving",
-    "instrumentation": "Soprano saxophone, violoncello, and piano",
-    "parts_included": "Full score, saxophone, and violoncello parts",
-    "pages": {
-      "full_score": 31,
-      "saxophone": 7,
-      "violoncello": 6
-    },
-    "difficulty": "Intermediate",
-    "duration": "10 minutes",
-    "year": 2023,
-    "ascap_registered": true,
-    "paypal_button_id": "YKUBUPWBKY79W",
-    "image": "/images/scores/moving.jpg",
-    "type": "Trio",
-    "tags": [
-      "chamber",
-      "intermediate",
-      "saxophone",
-      "cello",
-      "piano"
-    ],
-    "instrument_filters": [
-      "saxophone",
-      "cello",
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "fqGWFa89ZGo"
-    } 
-  },
-  {
-    "title": "Mariposa",
-    "subtitle": "for mezzo-soprano and string quartet",
-    "link": "/works/mariposa",
-    "slug": "mariposa",
-    "instrumentation": "Mezzo soprano and string quartet",
-    "parts_included": "Full score and individual parts",
-    "pages": {
-      "full_score": 14,
-      "voice": 2,
-      "violin_I": 3,
-      "violin_II": 3,
-      "viola": 3,
-      "violoncello": 4
-    },
-    "difficulty": "Intermediate",
-    "duration": "5.5 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "V4BJUZTQFXNVS",
-    "image": "/images/scores/mariposa.jpg",
-    "type": "Vocal Chamber",
-    "tags": [
-      "vocal",
-      "chamber",
-      "intermediate",
-      "strings"
-    ],
-    "instrument_filters": [
-      "mezzo-soprano",
-      "violin",
-      "viola",
-      "cello"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "yoxKm3SD3Cs"
-    }    
-  },
-  {
-    "title": "Improvisation on a Theme by Amy Beach",
-    "subtitle": "for zhongruan",
-    "link": "/works/improvisation-amy-beach",
-    "slug": "improvisation_amy_beach",
-    "instrumentation": "Solo zhongruan (tenor ruan)",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 7
-    },
-    "difficulty": "Advanced",
-    "duration": "8 minutes",
-    "year": 2023,
-    "ascap_registered": true,
-    "paypal_button_id": "KAMW7G5SH4YQL",
-    "image": "/images/scores/improvisation_amy_beach.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "zhongruan",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "zhongruan"
-    ],
-    "media_preview": {
-      "type": "soundcloud",
-      "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1733658294&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-    },
-    "featured": true
-  },
-  {
-    "title": "Homage to Naomi Shemer / עוד יש מפרש לבן באופק",
-    "subtitle": "for clarinet in Bb, violoncello, and piano",
-    "link": "/works/homage-to-naomi-shemer",
-    "slug": "homage_naomi_shemer",
-    "instrumentation": "Clarinet in Bb, violoncello, and piano",
-    "parts_included": "Full score, clarinet, and violoncello parts",
-    "pages": {
-      "full_score": 53,
-      "clarinet": 12,
-      "violoncello": 13
-    },
-    "difficulty": "Intermediate to Advanced",
-    "duration": "15 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "N2P3B8NHNC3CW",
-    "image": "/images/scores/homage_naomi_shemer.jpg",
-    "type": "Trio",
-    "tags": [
-      "chamber",
-      "clarinet",
-      "cello",
-      "piano",
-      "intermediate",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "clarinet",
-      "cello",
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "TeBceWdz5gU"
-    }    
-  },
-  {
-    "title": "Fleeting Image",
-    "subtitle": "for solo piano",
-    "link": "/works/fleeting-image",
-    "slug": "fleeting_image",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 2
-    },
-    "difficulty": "Beginner",
-    "duration": "1.5 minutes",
-    "year": 2017,
-    "ascap_registered": true,
-    "paypal_button_id": "6EB2J7W8FAGTC",
-    "image": "/images/scores/fleeting_image.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "beginner"
-    ],
-    "instrument_filters": [
-      "piano"
-    ],
-    "media_preview": {
-      "type": "spotify",
-      "id": "https://open.spotify.com/track/6I55PEWBfOQdGLdxsgpAc1?si=3a1ca7d508a9418c"
-    }
-  },
-  {
-    "title": "Five Preludes",
-    "subtitle": "for piano",
-    "link": "/works/five-preludes",
-    "slug": "five_preludes",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 17
-    },
-    "difficulty": "Intermediate",
-    "duration": "7 minutes",
-    "year": 2016,
-    "ascap_registered": true,
-    "paypal_button_id": "8HSZGXR6BKFPJ",
-    "image": "/images/scores/five_preludes.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "intermediate"
-    ],
-    "instrument_filters": [
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "qFOrqKVbb9E"
-    }
-  },
-  {
-    "title": "F",
-    "subtitle": "for solo piano",
-    "link": "/works/f",
-    "slug": "f",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 10
-    },
-    "difficulty": "Advanced",
-    "duration": "7 minutes",
-    "year": 2025,
-    "ascap_registered": true,
-    "paypal_button_id": "PRQBKDFACXWNW",
-    "image": "/images/scores/f.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "piano"
-    ]
-  },
-  {
-    "title": "Controlled Chaos",
-    "subtitle": "for tenor saxophone",
-    "link": "/works/controlled-chaos",
-    "slug": "controlled_chaos",
-    "instrumentation": "Solo tenor saxophone",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 10
-    },
-    "difficulty": "Advanced",
-    "duration": "10 minutes",
-    "year": 2019,
-    "ascap_registered": true,
-    "paypal_button_id": "24JRAKMAPEVDL",
-    "image": "/images/scores/controlled_chaos.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "saxophone",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "saxophone"
-    ]
-  },
-  {
-    "title": "Caprice",
-    "subtitle": "for solo piano",
-    "link": "/works/caprice",
-    "slug": "caprice",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 7
-    },
-    "difficulty": "Intermediate to Advanced",
-    "duration": "4.5 minutes",
-    "year": 2025,
-    "ascap_registered": true,
-    "paypal_button_id": "MJGMHVM4QS8SA",
-    "image": "/images/scores/caprice.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "intermediate",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "piano"
-    ]
-  },
-  {
-    "title": "Birds of a Feather",
-    "subtitle": "for flute and clarinet in Bb",
-    "link": "/works/birds-of-a-feather",
-    "slug": "birds_of_a_feather",
-    "instrumentation": "Flute and clarinet in Bb",
-    "parts_included": "Full score and individual parts",
-    "pages": {
-      "full_score": 19,
-      "flute": 12,
-      "clarinet": 11
-    },
-    "difficulty": "Advanced",
-    "duration": "7.5 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "83AHWGJNW75X2",
-    "image": "/images/scores/birds_of_a_feather.jpg",
-    "type": "Duo",
-    "tags": [
-      "duo",
-      "flute",
-      "clarinet",
-      "advanced",
-      "winds"
-    ],
-    "instrument_filters": [
-      "flute",
-      "clarinet"
-    ]
-  },
-  {
-    "title": "Bicontinental Scherzo",
-    "subtitle": "for violoncello duo",
-    "link": "/works/bicontinental-scherzo",
-    "slug": "bicontinental_scherzo",
-    "instrumentation": "Violoncello and viola OR 2 violoncellos",
-    "parts_included": "Full score with both versions included",
-    "pages": {
-      "full_score": 8
-    },
-    "difficulty": "Intermediate",
-    "duration": "5 minutes",
-    "year": 2023,
-    "ascap_registered": true,
-    "paypal_button_id": "AVFP3TQB4QYSN",
-    "image": "/images/scores/bicontinental_scherzo.jpg",
-    "type": "Duo",
-    "tags": [
-      "duo",
-      "intermediate",
-      "strings"
-    ],
-    "instrument_filters": [
-      "cello",
-      "viola"
-    ]
-  },
-  {
-    "title": "My Child",
-    "subtitle": "scena for mezzo-soprano and piano",
-    "link": "/works/my-child",
-    "slug": "my_child",
-    "instrumentation": "Mezzo-soprano voice and piano",
-    "parts_included": "Full score and voice part",
-    "pages": {
-      "full_score": 14,
-      "voice": 4
-    },
-    "difficulty": "Intermediate to Advanced",
-    "duration": "11.5 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "6J2SCCNMQUE8S",
-    "image": "/images/scores/my_child.jpg",
-    "type": "Vocal",
-    "tags": [
-      "vocal",
-      "piano",
-      "intermediate",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "mezzo-soprano",
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "E32cZVoJkyA"
-    }
-  },
-  {
-    "title": "An elegie for that which, in good time, is behind us",
-    "subtitle": "for violoncello and piano",
-    "link": "/works/elegie-for-that-which",
-    "slug": "elegie_for_that_which",
-    "instrumentation": "Violoncello and piano",
-    "parts_included": "Full score and violoncello part",
-    "pages": {
-      "full_score": 23,
-      "violoncello": 8
-    },
-    "difficulty": "Intermediate to Advanced",
-    "duration": "13 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "HRFYLLV962KHS",
-    "image": "/images/scores/elegie_for_that_which.jpg",
-    "type": "Duo",
-    "tags": [
-      "duo",
-      "intermediate",
-      "advanced",
-      "cello",
-      "piano"
-    ],
-    "instrument_filters": [
-      "cello",
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "Ba3b0dP7ne4"
-    },
-    "featured": true
-  },
-  {
-    "title": "Convincing a Ghost to Stay",
-    "subtitle": "cadenza for solo violoncello",
-    "link": "/works/convincing-a-ghost-to-stay",
-    "slug": "convincing_a_ghost_to_stay",
-    "instrumentation": "Solo violoncello",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 9
-    },
-    "difficulty": "Advanced",
-    "duration": "10 minutes",
-    "year": 2023,
-    "ascap_registered": true,
-    "paypal_button_id": "P48VRCD7ZJQQA",
-    "image": "/images/scores/convincing_ghost.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "cello",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "cello"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "8LH-11yfnaQ"
-    }
-  },
-  {
-    "title": "Vignette",
-    "subtitle": "for solo piano",
-    "link": "/works/vignette",
-    "slug": "vignette",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 13
-    },
-    "difficulty": "Intermediate to Advanced",
-    "duration": "6 minutes",
-    "year": 2025,
-    "ascap_registered": true,
-    "paypal_button_id": "E6EEC2Y9JZKVJ",
-    "image": "/images/scores/vignette.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "intermediate",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "piano"
-    ]
-  },
-  {
-    "title": "Incredible Orca Hunt",
-    "subtitle": "for string quartet",
-    "link": "/works/incredible-orca-hunt",
-    "slug": "incredible_orca_hunt",
-    "instrumentation": "String quartet",
-    "parts_included": "Full score and individual parts",
-    "pages": {
-      "full_score": 17,
-      "violin_I": 4,
-      "violin_II": 3,
-      "viola": 3,
-      "violoncello": 3
-    },
-    "difficulty": "Intermediate",
-    "duration": "5.5 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "3MK57L6A6HXR6",
-    "image": "/images/scores/incredible_orca_hunt.jpg",
-    "type": "Quartet",
-    "tags": [
-      "chamber",
-      "quartet",
-      "intermediate",
-      "strings"
-    ],
-    "instrument_filters": [
-      "violin",
-      "viola",
-      "cello"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "57uQWhudlWM"
-    }
-  },
-  {
-    "title": "Together Again",
-    "subtitle": "for string quartet",
-    "link": "/works/together-again",
-    "slug": "together_again",
-    "instrumentation": "String quartet",
-    "parts_included": "Full score and individual parts",
-    "pages": {
-      "full_score": 22,
-      "violin_I": 7,
-      "violin_II": 5,
-      "viola": 5,
-      "violoncello": 6
-    },
-    "difficulty": "Intermediate",
-    "duration": "9 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "WA874RGKHDX3W",
-    "image": "/images/scores/together_again.jpg",
-    "type": "Quartet",
-    "tags": [
-      "chamber",
-      "quartet",
-      "intermediate",
-      "strings"
-    ],
-    "instrument_filters": [
-      "violin",
-      "viola",
-      "cello"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "dYjIYc4saeo"
-    },
-    "featured": true
-  },
-  {
-    "title": "No one, voices, answers",
-    "subtitle": "for string quartet",
-    "link": "/works/no-one-voices-answers",
-    "slug": "no_one_voices_answers",
-    "instrumentation": "String quartet",
-    "parts_included": "Full score and individual parts",
-    "pages": {
-      "full_score": 25,
-      "violin_I": 8,
-      "violin_II": 9,
-      "viola": 9,
-      "violoncello": 9
-    },
-    "difficulty": "Advanced",
-    "duration": "16.5 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "6UDVSSKM7K7ZJ",
-    "image": "/images/scores/no_one_voices_answers.jpg",
-    "type": "Quartet",
-    "tags": [
-      "chamber",
-      "quartet",
-      "advanced",
-      "strings"
-    ],
-    "instrument_filters": [
-      "violin",
-      "viola",
-      "cello"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "tEO_5tmE-vk"
-    }
-  },
-  {
-    "title": "Focusing on Other Things",
-    "subtitle": "for solo piano",
-    "link": "/works/focusing-on-other-things",
-    "slug": "focusing_on_other_things",
-    "instrumentation": "Solo piano",
-    "parts_included": "Full score",
-    "pages": {
-      "full_score": 16
-    },
-    "difficulty": "Advanced",
-    "duration": "7.5 minutes",
-    "year": 2024,
-    "ascap_registered": true,
-    "paypal_button_id": "4KBERJZAYR5YQ",
-    "image": "/images/scores/focusing_on_other_things.jpg",
-    "type": "Solo",
-    "tags": [
-      "solo",
-      "piano",
-      "advanced"
-    ],
-    "instrument_filters": [
-      "piano"
-    ],
-    "media_preview": {
-      "type": "youtube",
-      "id": "T-qgC0ttAUY"
     },
     "featured": true
   }

@@ -97,6 +97,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const typeFilter = document.getElementById("filter-type").value.toLowerCase();
     const difficultyFilter = document.getElementById("filter-difficulty").value.toLowerCase();
     const instrumentFilter = document.getElementById("filter-instrument").value.toLowerCase();
+    const titleFilter = document.getElementById("filter-title").value.toLowerCase();
   
     const filtered = allWorks.filter((work) => {
       const matchesType =
@@ -107,8 +108,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       const matchesInstrument =
         !instrumentFilter ||
         (work.instrument_filters || []).some((instr) => instr.toLowerCase().includes(instrumentFilter));
+      const matchesTitle = !titleFilter || work.title?.toLowerCase().includes(titleFilter);
   
-      return matchesType && matchesDifficulty && matchesInstrument;
+      return matchesType && matchesDifficulty && matchesInstrument && matchesTitle;
     });
   
     grid.classList.remove("visible");
@@ -120,6 +122,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("filter-type").addEventListener("change", applyFilters);
   document.getElementById("filter-difficulty").addEventListener("change", applyFilters);
   document.getElementById("filter-instrument").addEventListener("input", applyFilters);
+  document.getElementById("filter-title").addEventListener("input", applyFilters);
 
   const allWorks = await response.json();
   renderWorks(allWorks);

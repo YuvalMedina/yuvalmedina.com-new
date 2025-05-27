@@ -8,7 +8,6 @@ html, body {
     background: linear-gradient(145deg, #ffffff, #dbdbdb);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
 }
 
 body {
@@ -63,13 +62,13 @@ body {
     margin: 1em 0;
   }
   
-  .catalog-link {
+  .catalog-link, .email-link {
     color: #c56244;
     text-decoration: none;
     font-weight: 500;
   }
   
-  .catalog-link:hover {
+  .catalog-link:hover, .email-link:hover {
     text-decoration: underline;
   }
   
