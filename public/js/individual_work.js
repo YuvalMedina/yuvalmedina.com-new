@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const slug = window.location.pathname.split("/").pop().replace("-", "_");
+    const slug = window.location.pathname.split("/").pop().replaceAll("-", "_");
   
     try {
       const response = await fetch("/works/works.json");
@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (work.media_preview) {
         let embed = "";
         if (work.media_preview.type === "youtube") {
+          console.log(work.media_preview.id);
           embed = `<iframe src="https://www.youtube.com/embed/${work.media_preview.id}" frameborder="0" allowfullscreen></iframe>`;
         } else if (work.media_preview.type === "spotify") {
           embed = `<iframe src="${work.media_preview.embed}" frameborder="0" allow="encrypted-media"></iframe>`;

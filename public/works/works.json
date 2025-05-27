@@ -8,13 +8,13 @@
     "parts_included": "Full score and individual parts",
     "pages": {
       "full_score": 104,
-      "flute_1": 9,
-      "flute_2": 9,
+      "flute_I": 9,
+      "flute_II": 9,
       "oboe": 7,
       "bass_clarinet": 8,
       "horn": 6,
-      "violin_1": 5,
-      "violin_2": 5,
+      "violin_I": 5,
+      "violin_II": 5,
       "viola": 5,
       "violoncello": 6
     },
@@ -66,8 +66,8 @@
       "percussion": 2,
       "harp": 3,
       "piano": 3,
-      "violin_1": 2,
-      "violin_2": 2,
+      "violin_I": 2,
+      "violin_II": 2,
       "viola": 2,
       "violoncello": 2,
       "double_bass": 2
@@ -254,8 +254,8 @@
     "pages": {
       "full_score": 14,
       "voice": 2,
-      "violin_1": 3,
-      "violin_2": 3,
+      "violin_I": 3,
+      "violin_II": 3,
       "viola": 3,
       "violoncello": 4
     },
@@ -286,7 +286,7 @@
   {
     "title": "Improvisation on a Theme by Amy Beach",
     "subtitle": "for zhongruan",
-    "link": "/works/improvisation-on-a-theme-by-amy-beach",
+    "link": "/works/improvisation-amy-beach",
     "slug": "improvisation_amy_beach",
     "instrumentation": "Solo zhongruan (tenor ruan)",
     "parts_included": "Full score",
@@ -682,8 +682,8 @@
     "parts_included": "Full score and individual parts",
     "pages": {
       "full_score": 17,
-      "violin_1": 4,
-      "violin_2": 3,
+      "violin_I": 4,
+      "violin_II": 3,
       "viola": 3,
       "violoncello": 3
     },
@@ -719,8 +719,8 @@
     "parts_included": "Full score and individual parts",
     "pages": {
       "full_score": 22,
-      "violin_1": 7,
-      "violin_2": 5,
+      "violin_I": 7,
+      "violin_II": 5,
       "viola": 5,
       "violoncello": 6
     },
@@ -757,8 +757,8 @@
     "parts_included": "Full score and individual parts",
     "pages": {
       "full_score": 25,
-      "violin_1": 8,
-      "violin_2": 9,
+      "violin_I": 8,
+      "violin_II": 9,
       "viola": 9,
       "violoncello": 9
     },

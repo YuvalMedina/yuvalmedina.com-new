@@ -6,10 +6,22 @@ body {
     color: white;
     line-height: 1.6;
   }
+
+  @keyframes fadeSlideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   
   .work-container {
     max-width: 800px;
     margin-left: 100px;
+    animation: fadeSlideIn 0.8s ease-out;
   }
   
   .work-title {
@@ -34,14 +46,29 @@ body {
     border: none;
     border-radius: 10px;
   }
+
+  .work-details strong {
+    margin-top: 0.5em;
+    color: #aaa;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 140px;
+    text-indent: 0;
+  }
+  
+  .work-detail-element{
+    text-indent: 1.2em;
+  }
   
   .work-details ul {
-    padding-left: 1.2em;
+    padding-left: 2.0em;
   }
   
   #purchase-link {
     margin-top: 2em;
+    margin-bottom: 2em;
     text-align: center;
+    overflow: visible;
   }
   
   #purchase-link a {
