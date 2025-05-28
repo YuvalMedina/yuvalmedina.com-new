@@ -5,6 +5,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     const allWorks = await response.json();
   
     function renderWorks(worksToRender) {
+      // Sort works so that ones with media_preview appear first
+      worksToRender.sort((a, b) => {
+        const hasMediaA = a.media_preview ? 1 : 0;
+        const hasMediaB = b.media_preview ? 1 : 0;
+        return hasMediaB - hasMediaA; // descending: true comes before false
+      });
+
       grid.innerHTML = "";
       worksToRender.forEach((work) => {
         const item = document.createElement("div");

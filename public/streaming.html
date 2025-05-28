@@ -90,17 +90,28 @@
           .then(res => res.json())
           .then(data => {
             const container = document.getElementById('streaming');
-            const featuredTracks = data.filter(w => w.featured && (w.media_preview?.type === 'spotify' || w.media_preview?.type === 'soundcloud'));
+            const featuredTracks = data.filter(w => w.featured && (w.media_preview?.type === 'spotify' || w.media_preview?.type === 'soundcloud' || w.alternate_media_preview?.type === 'spotify' || w.alternate_media_preview?.type === 'soundcloud'));
     
             featuredTracks.forEach((work, index) => {
               const card = document.createElement('div');
               card.className = 'streaming-card';
-    
-              card.innerHTML = `
-                <h2>${work.title}</h2>
+
+              const media = work.alternate_media_preview ? work.alternate_media_preview : work.media_preview;
+              
+              if (media.type === 'spotify') {
+                card.innerHTML = `
+                  <h2>${work.title}</h2>
+                <p>${work.subtitle || ''} ${work.year ? '(' + work.year + ')' : ''}</p>
+                ${media.embed}
+                `;;
+              }
+              else {
+                card.innerHTML = `
+                  <h2>${work.title}</h2>
                 <p>${work.subtitle || ''} ${work.year ? '(' + work.year + ')' : ''}</p>
                 <iframe src="${work.media_preview.embed}" allow="encrypted-media"></iframe>
-              `;
+                `;
+              }
               container.appendChild(card);
             });
           });

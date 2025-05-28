@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
       document.getElementById("work-title").textContent = work.title;
       document.getElementById("work-subtitle").textContent = work.subtitle || "";
-      document.getElementById("work-description").innerHTML = work.description;
+      if (work.description) document.getElementById("work-description").innerHTML = work.description;
       document.getElementById("work-instrumentation").textContent = work.instrumentation;
       document.getElementById("work-duration").textContent = work.duration;
       document.getElementById("work-difficulty").textContent = work.difficulty;
@@ -35,11 +35,13 @@ document.addEventListener("DOMContentLoaded", async () => {
           console.log(work.media_preview.id);
           embed = `<iframe src="https://www.youtube.com/embed/${work.media_preview.id}" frameborder="0" allowfullscreen></iframe>`;
         } else if (work.media_preview.type === "spotify") {
-          embed = `<iframe src="${work.media_preview.embed}" frameborder="0" allow="encrypted-media"></iframe>`;
+          embed = work.media_preview.embed;
         } else if (work.media_preview.type === "soundcloud") {
           embed = `<iframe src="${work.media_preview.embed}" frameborder="no" scrolling="no"></iframe>`;
         }
         mediaContainer.innerHTML = embed;
+      } else {
+        mediaContainer.style.display = "none";
       }
   
       // Purchase link to open modal via store

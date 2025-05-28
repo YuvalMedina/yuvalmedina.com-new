@@ -90,7 +90,12 @@
     "instrument_filters": [
       "flute",
       "clarinet"
-    ]
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "jRA-auMp6qU"
+    },
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\tTwo lovebirds<br>A hypnotic coo,<br>Caught in a dance<br>Speeding up<br>Like a fan's blades,<br>Four wings<br>meld into one<br><br>Fighting? Laughing?<br>Speeding up,<br>And slowing down,<br>Down, down, down...<br><br>A gray feather<br>Stifling breeze,<br>Silence,<br>Floating up and down<br>up and down,<br>Where are the birds?<br><br>\n\t\t<span class=\"quote-author\">— Yuval Medina (June 2024)</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Caprice",
@@ -117,7 +122,8 @@
     ],
     "instrument_filters": [
       "piano"
-    ]
+    ],
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t\"If everyone went in the same direction,<br>the world would turn on its head.\"<br>\n\t\t<span class=\"quote-author\">— Yiddish proverb</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Controlled Chaos",
@@ -160,7 +166,7 @@
     "year": 2023,
     "ascap_registered": true,
     "paypal_button_id": "P48VRCD7ZJQQA",
-    "image": "/images/scores/convincing_ghost.jpg",
+    "image": "/images/scores/convincing_a_ghost_to_stay.jpg",
     "type": "Solo",
     "tags": [
       "solo",
@@ -307,7 +313,7 @@
     ],
     "media_preview": {
       "type": "spotify",
-      "id": "https://open.spotify.com/track/6I55PEWBfOQdGLdxsgpAc1?si=3a1ca7d508a9418c"
+      "embed": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6I55PEWBfOQdGLdxsgpAc1?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     }
   },
   {
@@ -339,13 +345,17 @@
       "type": "youtube",
       "id": "T-qgC0ttAUY"
     },
+    "alternate_media_preview": {
+      "type": "spotify",
+      "embed": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/40mfGEAWMxAQ4IOYTulbYi?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
     "featured": true
   },
   {
     "title": "Homage to Naomi Shemer / עוד יש מפרש לבן באופק",
     "subtitle": "for clarinet in Bb, violoncello, and piano",
     "link": "/works/homage-to-naomi-shemer",
-    "slug": "homage_naomi_shemer",
+    "slug": "homage_to_naomi_shemer",
     "instrumentation": "Clarinet in Bb, violoncello, and piano",
     "parts_included": "Full score, clarinet, and violoncello parts",
     "pages": {
@@ -358,7 +368,7 @@
     "year": 2024,
     "ascap_registered": true,
     "paypal_button_id": "N2P3B8NHNC3CW",
-    "image": "/images/scores/homage_naomi_shemer.jpg",
+    "image": "/images/scores/homage_to_naomi_shemer.jpg",
     "type": "Trio",
     "tags": [
       "chamber",
@@ -483,7 +493,8 @@
     "media_preview": {
       "type": "youtube",
       "id": "yoxKm3SD3Cs"
-    }
+    },
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\tButterflies are white and blue<br>In this field we wander through.<br>Suffer me to take your hand.<br>Death comes in a day or two.<br><br>All the things we ever knew<br>Will be ashes in that hour,<br>Mark the transient butterfly,<br>How he hangs upon the flower.<br><br>Suffer me to take your hand.<br>Suffer me to cherish you<br>Till the dawn is in the sky.<br>Whether I be false or true,<br>Death comes in a day or two.<br><br>\n\t\t<span class=\"quote-author\">— Edna St. Vincent Millay (1921)</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Moving",
@@ -552,7 +563,8 @@
     "media_preview": {
       "type": "youtube",
       "id": "E32cZVoJkyA"
-    }
+    },
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\tBreaking,<br>On the Verge,<br>On tightrope,<br>Just static,<br>A thought<br><br>The smell of silence<br>And freshly dug earth<br>A muffled scream<br>Smoke seeping everywhere<br>Last night I was there<br><br>My flesh and blood<br>Raised on cream and butter,<br>Kissed by lilacs,<br>Man plans and God laughs<br><br>I'm sorry,<br>My heart,<br>My child.<br><br>But last night<br>God came<br>And made me see,<br>It looked like heaven<br><br>God only knows<br>Waking up was like dying,<br>But I still remembered<br>The memory still lives inside me,<br>Only death can erase something so beautiful.<br><br>\n\t\t<span class=\"quote-author\">— Yuval Medina (2024)</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "No one, voices, answers",
@@ -589,7 +601,8 @@
     "media_preview": {
       "type": "youtube",
       "id": "tEO_5tmE-vk"
-    }
+    },
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t“We had a lover, and since the war, he is gone. Simply vanished.”<br>\n\t\t<span class=\"quote-author\">— A. B. Yehoshua</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Sleepwalking",
@@ -687,6 +700,7 @@
       "type": "youtube",
       "id": "dYjIYc4saeo"
     },
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t\"There is a place called ‘heaven’ where the good here unfinished is completed; and where the stories unwritten, and the hopes unfulfilled, are continued. We may laugh together yet.\"<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>",
     "featured": true
   },
   {
@@ -744,7 +758,8 @@
     ],
     "instrument_filters": [
       "piano"
-    ]
+    ],
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t\"I have found that if you love life, life will love you back.\"<br>\n\t\t<span class=\"quote-author\">— Arthur Rubinstein</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Waking Up Mid-Flight",
@@ -818,6 +833,47 @@
       "type": "soundcloud",
       "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1604626878&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
     },
+    "featured": true,
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\tThe rumble of jet engines.<br>A crying baby.<br>Dry eyes, cracked lips.<br>The stewardess whispering<br>A begrumbled old lady.<br>Thousands of feet above the clouds.<br>Turbulence<br>The cold arid air.<br>Coughing.<br>Sneezing.<br>Fidgeting.<br>Knees have nowhere to go.<br>Dirty looks from the person in front.<br>The descent into sleep<br>As far away as the destination...<br><br>Breach the layer of cumulonimbus.<br>Closer than before.<br>Much awaited cup of water.<br>Can the pilot see through these clouds?<br>Tiny spots of light.<br>Where is the other shoe?<br>Seatbelts on.<br>Afraid.<br>What's it like to be back?<br>Another universe.<br>Excited.<br>Out of the clouds in one flick<br>The City appears.<br><br>\n\t\t<span class=\"quote-author\">— Yuval Medina (2023)</span>\n\t</blockquote>\n\t<p>\n\t\t<strong>Program Notes</strong><br><br>\"The accompanying poem and the music are inspired by the same dream. Living in between two worlds is disorienting. My family and I live on different continents. I am both a musician and I also work with computers. I am both a composer and also a pianist. Waking up in the middle of a flight was only the most vivid situation that came to mind when I wanted to describe the funny feeling of suddenly realizing you are not in one world or the other, but with one foot here and one foot there.\" <br><br>&emsp;<em>– April, 2023</em></p></div>"
+  },
+  {
+    "title": "In Tempo",
+    "subtitle": "",
+    "year": 2021,
+    "link": "https://open.spotify.com/track/2OmAbaAOthbnZisPKkyiEO?si=9e18b50f5b0b4103\" target=\"_blank",
+    "slug": "in_tempo",
+    "duration": "3 minutes, 39 seconds",
+    "ascap_registered": true,
+    "tags": [
+      "electronics",
+      "piano",
+      "production"
+    ],
+    "media_preview": {
+      "type": "spotify",
+      "embed": "<iframe style=\"border-radius:12p\" src=\"https://open.spotify.com/embed/track/2OmAbaAOthbnZisPKkyiEO?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    "electronic_work": true,
+    "featured": true
+  },
+  {
+    "title": "Cave",
+    "subtitle": "",
+    "year": 2021,
+    "link": "https://open.spotify.com/track/3BtpoiI0comDUlQKeZ8T5H\" target=\"_blank",
+    "slug": "cave",
+    "duration": "3 minutes, 57 seconds",
+    "ascap_registered": true,
+    "tags": [
+      "electronics",
+      "piano",
+      "production"
+    ],
+    "media_preview": {
+      "type": "spotify",
+      "embed": "<iframe style=\"border-radius:12p\" src=\"https://open.spotify.com/embed/track/3BtpoiI0comDUlQKeZ8T5H?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    "electronic_work": true,
     "featured": true
   }
 ]

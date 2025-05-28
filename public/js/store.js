@@ -32,14 +32,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     grid.innerHTML = "";
   
     worksToRender.forEach((work, index) => {
-      const item = document.createElement("div");
-      item.className = "store-item";
-      item.innerHTML = `
-        <div class="store-thumbnail" style="background-image: url('${work.image}')"></div>
-        <div class="store-title">${work.title}</div>
-      `;
-      item.addEventListener("click", () => openModal(work));
-      grid.appendChild(item);
+      if (!work.electronic_work) {
+        const item = document.createElement("div");
+        item.className = "store-item";
+        item.innerHTML = `
+          <div class="store-thumbnail" style="background-image: url('${work.image}')"></div>
+          <div class="store-title">${work.title}</div>
+        `;
+        item.addEventListener("click", () => openModal(work));
+        grid.appendChild(item);
+      }
     });
   }
 
