@@ -59,8 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       } else if (work.media_preview.type === "spotify") {
         mediaHTML = `
           <div class="media-preview">
-            <iframe src="${work.media_preview.embed}" 
-                    frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            ${work.media_preview.embed}
           </div>`;
       } else if (work.media_preview.type === "soundcloud") {
         mediaHTML = `

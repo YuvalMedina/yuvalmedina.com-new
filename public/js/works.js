@@ -40,22 +40,25 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   
     function applyFilters() {
+      const title = document.getElementById("filter-title").value.toLowerCase();
       const type = document.getElementById("filter-type").value.toLowerCase();
       const diff = document.getElementById("filter-difficulty").value.toLowerCase();
       const instr = document.getElementById("filter-instrument").value.toLowerCase();
   
       const filtered = allWorks.filter((work) => {
+        const matchesTitle = !title || work.title.toLowerCase().includes(title);
         const matchesType =
           !type || work.type?.toLowerCase() === type || work.tags?.includes(type);
         const matchesDiff = !diff || work.difficulty?.toLowerCase().includes(diff);
         const matchesInstr =
           !instr || work.instrument_filters?.some((i) => i.toLowerCase().includes(instr));
-        return matchesType && matchesDiff && matchesInstr;
+        return matchesTitle && matchesType && matchesDiff && matchesInstr;
       });
   
       renderWorks(filtered);
     }
   
+    document.getElementById("filter-title").addEventListener("input", applyFilters);
     document.getElementById("filter-type").addEventListener("change", applyFilters);
     document.getElementById("filter-difficulty").addEventListener("change", applyFilters);
     document.getElementById("filter-instrument").addEventListener("input", applyFilters);

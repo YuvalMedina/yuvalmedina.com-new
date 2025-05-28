@@ -15,6 +15,8 @@ body {
 }
 
 .store-page {
+  position: relative;
+  z-index: 1;
   display: flex;
   padding: 60px 20px;
   gap: 40px;
@@ -28,6 +30,14 @@ body {
   display: block;
   padding-left: 260px; /* if you want space for the nav */
   padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .store-page,
+  .store-page.with-sidebar {
+    padding-left: 20px !important;
+    padding-right: 20px;
+  }
 }
 
 .filters-container{
@@ -170,7 +180,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999;
+  z-index: 900;
 }
 
 .modal.hidden {
