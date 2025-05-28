@@ -1,5 +1,8 @@
-RewriteEngine On
-RewriteBase /works/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-zA-Z0-9\-]+)$ template.html [L]
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteBase /works/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([a-zA-Z0-9\-]+)$ individual-work-template.html [QSA,L]
+</IfModule>
