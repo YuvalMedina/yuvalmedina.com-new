@@ -197,7 +197,72 @@
           </a> -->
         </div>
     </section>
-    <section id="newsletter" class="newsletter-section">
+    <section class="contact-widget-section">
+      <div class="contact-container">
+        <h1>Contact</h1>
+        <p class="description">
+          For commission inquiries, performance requests, licensing of scores or recordings,
+          or to propose a collaboration, please use the form below. I’d love to hear from you.
+        </p>
+    
+        <form id="contact-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="contact-name" name="contact-name" required />
+          </div>
+    
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="contact-email" name="contact-email" required />
+          </div>
+    
+          <div>
+            <label for="subject">Subject</label>
+            <input type="text" id="contact-subject" name="contact-subject" required />
+          </div>
+    
+          <div>
+            <label for="message">Message</label>
+            <textarea id="contact-message" name="contact-message" required></textarea>
+          </div>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+      <section id="about" class="about-section">
+        <div class="about-flex-container">
+          <div class="about-image">
+            <img src="/images/yuval_headshot.jpg" alt="Yuval Medina headshot" />
+          </div>
+      
+          <div class="about-text">
+            <h2>About Yuval Medina</h2>
+            <p>
+              Yuval Medina is a composer and pianist who believes in the power of music to change our world.
+              A storyteller at heart, his music seeks to express all that cannot be said in words.
+              He is currently pursuing his master’s in classical composition at the Manhattan School of Music.
+            </p>
+      
+            <p>
+              His music was recently <a href="https://www.instagram.com/reel/DGvL_NBKN-J/" target="_blank">featured</a> by <em>Vanity Fair</em> during the Oscars ceremony,
+              accompanying stars including Adrien Brody, Olivia Wilde, and Andrew Garfield.
+              Yuval received the Tribeca New Music Merit Award for his piano cadenza
+              <a href="works/focusing-on-other-things.html" target="_blank"><em>Focusing on Other Things</em></a>, and was recently awarded an Honorable Mention
+              from the New York Youth Symphony’s First Music competition.
+            </p>
+      
+            <p>
+              You can follow <strong>@yuvalcomposer</strong> on
+              <a href="https://instagram.com/yuvalcomposer" target="_blank">Instagram</a>,
+              <a href="https://youtube.com/@yuvalcomposer" target="_blank">YouTube</a>, or
+              <a href="https://soundcloud.com/yuvalcomposer" target="_blank">SoundCloud</a>
+              to stay up to date with his latest work.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="newsletter" class="newsletter-section">
         <div class="newsletter-container animate-in">
           <h2>Stay Connected</h2>
           <p class="newsletter-intro">
@@ -231,38 +296,6 @@
           </p>
         </div>
       </section>
-      <section id="about" class="about-section">
-        <div class="about-flex-container">
-          <div class="about-image">
-            <img src="/images/yuval_headshot.jpg" alt="Yuval Medina headshot" />
-          </div>
-      
-          <div class="about-text">
-            <h2>About Yuval Medina</h2>
-            <p>
-              Yuval Medina is a composer and pianist who believes in the power of music to change our world.
-              A storyteller at heart, his music seeks to express all that cannot be said in words.
-              He is currently pursuing his master’s in classical composition at the Manhattan School of Music.
-            </p>
-      
-            <p>
-              His music was recently <a href="https://www.instagram.com/reel/DGvL_NBKN-J/" target="_blank">featured</a> by <em>Vanity Fair</em> during the Oscars ceremony,
-              accompanying stars including Adrien Brody, Olivia Wilde, and Andrew Garfield.
-              Yuval received the Tribeca New Music Merit Award for his piano cadenza
-              <a href="works/focusing-on-other-things.html" target="_blank"><em>Focusing on Other Things</em></a>, and was recently awarded an Honorable Mention
-              from the New York Youth Symphony’s First Music competition.
-            </p>
-      
-            <p>
-              You can follow <strong>@yuvalcomposer</strong> on
-              <a href="https://instagram.com/yuvalcomposer" target="_blank">Instagram</a>,
-              <a href="https://youtube.com/@yuvalcomposer" target="_blank">YouTube</a>, or
-              <a href="https://soundcloud.com/yuvalcomposer" target="_blank">SoundCloud</a>
-              to stay up to date with his latest work.
-            </p>
-          </div>
-        </div>
-      </section>
       <footer class="site-footer">
         <div class="footer-social">
           <a href="https://instagram.com/yuvalcomposer" target="_blank" aria-label="Instagram">
@@ -283,10 +316,10 @@
         </div>
       
         <div class="footer-nav">
-          <a href="/about">About</a>
-          <a href="/works">Works</a>
-          <a href="/store">Store</a>
-          <a href="/contact">Contact</a>
+          <a href="/about.html">About</a>
+          <a href="/works/index.html">Repertoire</a>
+          <a href="/store/index.html">Scores</a>
+          <a href="/contact.html">Contact</a>
         </div>
       
         <div class="footer-credit">
@@ -342,7 +375,20 @@
         
           observer.observe(heroVideo);
         });
-        </script>
-        
+    </script> 
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+  
+        const name = document.getElementById('contact-name').value;
+        const email = document.getElementById('contact-email').value;
+        const subject = document.getElementById('contact-subject').value;
+        const message = document.getElementById('contact-message').value;
+  
+        const mailtoLink = `mailto:contact@yuvalmedina.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From:\t<Name: ${name}\n\t\t Email: ${email}>\n\n${message}`)}`;
+  
+        window.location.href = mailtoLink;
+      });
+    </script>
 </body>
 </html>
