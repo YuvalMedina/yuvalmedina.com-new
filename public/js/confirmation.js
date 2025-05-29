@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const params = new URLSearchParams(window.location.search);
     const slug = params.get("w");
+    const pageTitle = document.getElementsByTagName("title")[0];
     const titleEl = document.getElementById("work-title");
     const mediaEl = document.getElementById("work-media");
     const catalogLink = document.getElementById("catalog-link");
   
     if (!slug) {
-      titleEl.textContent = "Error: No work specified.";
+      window.location.href = "/store/index.html";
       return;
     }
   
@@ -20,8 +21,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
       }
   
+      pageTitle.textContent = `Purchase confirmation – \"${work.title}\" by Yuval Medina`;
       titleEl.textContent = work.title;
-      catalogLink.href = `/works/${slug}`;
+      catalogLink.href = `/works/${slug.replaceAll("_", "-")}`;
   
       if (work.media_preview) {
         let mediaHTML = "";

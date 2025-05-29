@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   
       if (!work) return;
 
-      document.getElementsByTagName('title').textContent = work.title.concat(" - by Yuval Medina");
+      document.getElementsByTagName('title')[0].textContent = `\"${work.title}\" - by Yuval Medina`;
   
       document.getElementById("work-title").textContent = work.title;
       document.getElementById("work-subtitle").textContent = work.subtitle || "";
