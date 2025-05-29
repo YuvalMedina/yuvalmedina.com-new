@@ -23,6 +23,13 @@ body {
     margin-left: 100px;
     animation: fadeSlideIn 0.8s ease-out;
   }
+
+  @media (max-width: 768px) {
+    .work-container {
+      margin-top: 20px !important;
+      margin-left: 20px !important;
+    }
+  }
   
   .work-title {
     font-size: 2.5em;
