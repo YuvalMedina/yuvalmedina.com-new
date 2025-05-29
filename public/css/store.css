@@ -191,6 +191,7 @@ body {
   background: #1a1a1a;
   border-radius: 12px;
   padding: 30px;
+  margin: 8%;
   max-width: 700px;
   width: 90%;
   max-height: 80vh;
@@ -211,6 +212,16 @@ body {
 
 #store-modal a:visited {
   color: white;                  /* overrides purple visited color */
+}
+
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  z-index: 0; /* Ensure it's behind modal-content */
 }
 
 .modal-close {

@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     }, 300);
   });
 
-  window.addEventListener("click", (e) => {
-    if (e.target === modal) {
-      modal.classList.add("hidden");
-      setTimeout(() => {
-        modalContent.innerHTML = "";
-      }, 300);
-    }
+  const backdrop = document.querySelector(".modal-backdrop");
+
+  backdrop.addEventListener("click", () => {
+    modal.classList.add("hidden");
+    setTimeout(() => {
+      modalContent.innerHTML = "";
+    }, 300);
   });
 
   // Load JSON data
