@@ -5,4 +5,5 @@
 *.jpg
 *.mp3
 *.wav
+*.gif
 /public/videos/unused_or_old
