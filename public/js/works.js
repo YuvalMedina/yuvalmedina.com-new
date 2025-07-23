@@ -17,7 +17,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         const item = document.createElement("div");
         item.className = "catalog-item";
   
-        const media = `<video class="tile-video" muted loop preload="none" poster="../images/${work.slug}_preview.jpg" src="../videos/${work.slug}_preview.mp4"></video>`;
+        const media = `
+          <div class="video-wrapper">
+            <img class="tile-poster" src="../images/${work.slug}_preview.jpg" alt="${work.title}">
+            <video class="tile-video" muted loop preload="none" src="../videos/${work.slug}_preview.mp4"></video>
+          </div>
+        `;
   
         item.innerHTML = `
         <a class="catalog-item" href="${work.link}".split('/').pop()>

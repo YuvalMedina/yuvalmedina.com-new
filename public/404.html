@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found – Yuval Medina</title>
+
+   <!-- Open Graph / Facebook -->
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://yuvalmedina.com/">
+   <meta property="og:title" content="Yuval Medina -  About">
+   <meta property="og:description" content="Composer and pianist.">
+   <meta property="og:image" content="https://yuvalmedina.com/images/yuval_headshot.jpg">
+   
+   <!-- Twitter -->
+   <meta property="twitter:card" content="summary_large_image">
+   <meta property="twitter:url" content="https://yuvalmedina.com/">
+   <meta property="twitter:title" content="Yuval Medina - About">
+   <meta property="twitter:description" content="Composer and pianist.">
+   <meta property="twitter:image" content="https://yuvalmedina.com/images/yuval_headshot.jpg">
+   
+   <link rel="icon" href="/images/favicon_headshot.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/sidebar.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: white;
+      text-align: center;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    .hero-404 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      background: black;
+    }
+    .hero-404 h1 {
+      font-size: 4rem;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 0.4em;
+      color: white;
+    }
+    .hero-404 p {
+      font-size: 1.3rem;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 1.5em;
+    }
+    .hero-404 a {
+      text-decoration: none;
+      padding: 10px 24px;
+      background-color: #c56244;
+      color: white;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .hero-404 a:hover {
+      background-color: #a94830;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <!-- Hamburger icon -->
+  <div id="hamburger" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!-- Sidebar menu -->
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+  <nav id="sidebar" class="sidebar">
+    <ul class="sidebar-primary">
+      <li><a href="/">Home</a></li>
+    </ul>
+    <hr class="sidebar-divider" />
+    <ul class="sidebar-secondary">
+        <li><a href="/store/index.html">Scores</a></li>
+        <li><a href="/works/index.html">Repertoire</a></li>
+        <li><a href="/videos.html">Videos</a></li>
+        <li><a href="/streaming.html">Streaming</a></li>
+        <li><a href="/about.html">Full Bio</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="sidebar-backdrop"></div>
+
+  <section class="hero-404">
+    <h1>404</h1>
+    <p>We couldn’t find the page you were looking for.</p>
+    <a href="/">Go Back Home</a>
+  </section>
+
+  <footer class="site-footer visible">
+    <div class="footer-social">
+      <a href="https://instagram.com/yuvalcomposer" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://youtube.com/@yuvalcomposer" target="_blank" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://open.spotify.com/artist/2wm4bS1SbtSlg77tJIkLMg" target="_blank" aria-label="Spotify">
+        <i class="fab fa-spotify"></i>
+      </a>
+      <a href="https://soundcloud.com/yuvalcomposer" target="_blank" aria-label="SoundCloud">
+        <i class="fab fa-soundcloud"></i>
+      </a>
+      <a href="https://music.apple.com/us/artist/yuval-medina/1548315191" target="_blank" aria-label="Apple Music">
+        <i class="fab fa-apple"></i>
+      </a>
+    </div>
+  
+    <div class="footer-nav">
+      <a href="/about.html">About</a>
+      <a href="/works/index.html">Repertoire</a>
+      <a href="/store/index.html">Scores</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  
+    <div class="footer-credit">
+      <p>&copy; Yuval Medina 2025. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="/js/sidebar.js"></script>
+</body>
+</html>

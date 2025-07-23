@@ -178,7 +178,7 @@
     ],
     "media_preview": {
       "type": "youtube",
-      "id": "8LH-11yfnaQ"
+      "id": "IdAcPeIFdxg"
     }
   },
   {
@@ -226,7 +226,7 @@
     ],
     "media_preview": {
       "type": "youtube",
-      "id": "h-7at9DUDLY"
+      "id": "VxOuPBpedZY"
     },
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t\"<em>El Cerrito</em> is named after the street where I spent my formative years before graduating high school and moving away from home. A few months ago, I rediscovered an old recording of an improvisation I had played that summer on our family’s well-worn piano. The descending scales, meticulous pedaling, delicate sustains and releases, and fleeting melodic fragments instantly transported me back to that time. Remarkably, I remembered every note of the improvisation, even though I hadn’t listened to it in over seven years.\n\t</p>\n\t<p>\n\t\tThe piece is subtitled <em>'Memories'</em> not only because of its origins in the distant past, but because its structure mirrors the experience of recalling a memory. At times, moments emerge vividly from the musical textures, while at others, they remain obscured, shrouded in a hazy, déjà vu-like veil.\"\n\t</p>\n\t<blockquote class=\"work-quote\">\n\t\t“All we have to decide is what to do with the time that is given us.”<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>"
   },
@@ -315,6 +315,48 @@
       "type": "spotify",
       "embed": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/6I55PEWBfOQdGLdxsgpAc1?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
     }
+  },
+  {
+    "title": "On the Softest Bed of Clouds",
+    "subtitle": "for violin and piano",
+    "link": "/works/on-the-softest-bed-of-clouds",
+    "slug": "on_the_softest_bed_of_clouds",
+    "instrumentation": "violin and piano",
+    "parts_included": "Full score and violin part",
+    "pages": {
+      "full_score": 31,
+      "violin": 7
+    },
+    "difficulty": "Advanced",
+    "duration": "13 minutes",
+    "year": 2025,
+    "ascap_registered": true,
+    "paypal_button_id": "G7AWZ9LJMKG5N",
+    "image": "/images/scores/on_the_softest_bed_of_clouds.jpg",
+    "type": "Duo",
+    "tags": [
+      "chamber",
+      "duo",
+      "advanced",
+      "strings",
+      "sonata",
+      "violin",
+      "piano"
+    ],
+    "instrument_filters": [
+      "violin",
+      "piano"
+    ],
+    "featured": true,
+    "media_preview": {
+      "type": "youtube",
+      "id": "PEdyrlpPVOQ"
+    },
+    "alternate_media_preview": {
+      "type": "spotify",
+      "embed": "<iframe style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/track/7ky5SkvNAtsJLmvdPabAw4?utm_source=generator\" width=\"100%\" height=\"352\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+    },
+    "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t“Of course, we were too young for reality that night. Of course, dreams<br>tasted better than the past and the future. Of course, hope was more<br>attractive than the present. Of course, we were infatuated with each other<br>and with revelling in our idea of love. Of course, we were the first and last<br>lovers on the planet. Of course, the threat that hung in the air was a mere<br>trifle compared to the turmoil we felt inside. Of course, that night we were<br>wiser and more cunning than life itself.”<br><br>\n\t\t<span class=\"quote-author\">— Nino Haratischvili</span>\n\t</blockquote>\n</div>"
   },
   {
     "title": "Focusing on Other Things",
@@ -453,7 +495,7 @@
     ],
     "media_preview": {
       "type": "youtube",
-      "id": "57uQWhudlWM"
+      "id": "hi0fJK6xfkc"
     }
   },
   {
@@ -698,7 +740,7 @@
     ],
     "media_preview": {
       "type": "youtube",
-      "id": "dYjIYc4saeo"
+      "id": "rN6tcLS1p4I"
     },
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t\"There is a place called ‘heaven’ where the good here unfinished is completed; and where the stories unwritten, and the hopes unfulfilled, are continued. We may laugh together yet.\"<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>",
     "featured": true
@@ -759,6 +801,10 @@
     "instrument_filters": [
       "piano"
     ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "bTvukeW3D3g"
+    },
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t\"I have found that if you love life, life will love you back.\"<br>\n\t\t<span class=\"quote-author\">— Arthur Rubinstein</span>\n\t</blockquote>\n</div>"
   },
   {

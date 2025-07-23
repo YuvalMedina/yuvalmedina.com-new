@@ -70,8 +70,17 @@ document.addEventListener("DOMContentLoaded", function () {
   
   document.querySelectorAll('.work-tile').forEach(tile => {
     const video = tile.querySelector('.tile-video');
-    tile.addEventListener('mouseenter', () => video.play());
-    tile.addEventListener('mouseleave', () => video.pause());
+    const poster = tile.querySelector('.tile-poster');
+  
+    tile.addEventListener('mouseenter', () => {
+      video.play();
+      if (poster) poster.style.opacity = "0";
+    });
+  
+    tile.addEventListener('mouseleave', () => {
+      video.pause();
+      if (poster) poster.style.opacity = "1";
+    });
   });
 
 const overlay = document.getElementById("sidebar-overlay");

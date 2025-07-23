@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
       const res = await fetch("/works/works.json");
       const works = await res.json();
-      const work = works.find(w => w.slug.toLowerCase() === slug.toLowerCase());
+      const normalizedSlug = slug.toLowerCase().replaceAll("-", "_");
+      const work = works.find(w => w.slug.toLowerCase() === normalizedSlug);
   
       if (!work) {
         titleEl.textContent = `Work not found: ${slug}`;

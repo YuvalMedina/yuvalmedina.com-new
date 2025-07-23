@@ -3,7 +3,6 @@ body {
     color: white;
     font-family: "Helvetica Neue", sans-serif;
     padding: 60px 20px;
-    overflow: hidden;
   }
 
   @keyframes fadeSlideIn {
