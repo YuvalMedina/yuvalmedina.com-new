@@ -97,7 +97,7 @@
   </footer>
 
   <script>
-    fetch('/works/works.json')
+    fetch('/works/works.json?v=' + Math.floor(Date.now() / 86400000))
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById('videos');

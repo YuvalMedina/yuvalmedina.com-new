@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const slug = window.location.pathname.split("/").pop().replaceAll("-", "_");
   
     try {
-      const response = await fetch("/works/works.json");
+      const response = await fetch('/works/works.json?v=' + Math.floor(Date.now() / 86400000));
       const works = await response.json();
       const work = works.find(w => w.slug === slug);
   

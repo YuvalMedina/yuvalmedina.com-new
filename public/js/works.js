@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const grid = document.getElementById("catalog-grid");
   
-    const response = await fetch("/works/works.json");
+    const response = await fetch('/works/works.json?v=' + Math.floor(Date.now() / 86400000));
     const allWorks = await response.json();
   
     function renderWorks(worksToRender) {

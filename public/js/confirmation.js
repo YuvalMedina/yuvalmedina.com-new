@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   
     try {
-      const res = await fetch("/works/works.json");
+      const res = await fetch('/works/works.json?v=' + Math.floor(Date.now() / 86400000));
       const works = await res.json();
       const normalizedSlug = slug.toLowerCase().replaceAll("-", "_");
       const work = works.find(w => w.slug.toLowerCase() === normalizedSlug);

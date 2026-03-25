@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   // Load JSON data
-  const response = await fetch("/works/works.json");
+  const response = await fetch('/works/works.json?v=' + Math.floor(Date.now() / 86400000));
 
   // Clear loader
   grid.innerHTML = "";
