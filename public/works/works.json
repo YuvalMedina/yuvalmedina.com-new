@@ -31,8 +31,7 @@
     "media_preview": {
       "type": "youtube",
       "id": "Ba3b0dP7ne4"
-    },
-    "featured": true
+    }
   },
   {
     "title": "Bicontinental Scherzo",
@@ -179,7 +178,8 @@
     "media_preview": {
       "type": "youtube",
       "id": "IdAcPeIFdxg"
-    }
+    },
+    "featured": true
   },
   {
     "title": "El Cerrito",
@@ -228,6 +228,7 @@
       "type": "youtube",
       "id": "VxOuPBpedZY"
     },
+    "featured": true,
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t\"<em>El Cerrito</em> is named after the street where I spent my formative years before graduating high school and moving away from home. A few months ago, I rediscovered an old recording of an improvisation I had played that summer on our family’s well-worn piano. The descending scales, meticulous pedaling, delicate sustains and releases, and fleeting melodic fragments instantly transported me back to that time. Remarkably, I remembered every note of the improvisation, even though I hadn’t listened to it in over seven years.\n\t</p>\n\t<p>\n\t\tThe piece is subtitled <em>'Memories'</em> not only because of its origins in the distant past, but because its structure mirrors the experience of recalling a memory. At times, moments emerge vividly from the musical textures, while at others, they remain obscured, shrouded in a hazy, déjà vu-like veil.\"\n\t</p>\n\t<blockquote class=\"work-quote\">\n\t\t“All we have to decide is what to do with the time that is given us.”<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>"
   },
   {
@@ -458,8 +459,7 @@
     "media_preview": {
       "type": "soundcloud",
       "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1733658294&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-    },
-    "featured": true
+    }
   },
   {
     "title": "Incredible Orca Hunt",
@@ -496,6 +496,55 @@
     "media_preview": {
       "type": "youtube",
       "id": "hi0fJK6xfkc"
+    }
+  },
+  {
+    "title": "The Long Goodbye",
+    "subtitle": "for brass ensemble and percussion",
+    "link": "/works/the-long-goodbye",
+    "slug": "the_long_goodbye",
+    "instrumentation": "4 Trumpets, 4 Horns, 3 Trombones, 1 Tuba, and 2 Percussionists",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 54,
+      "trumpet_1": 7,
+      "trumpet_2": 8,
+      "trumpet_3": 8,
+      "trumpet_4": 8,
+      "horn_1": 9,
+      "horn_2": 7,
+      "horn_3": 8,
+      "horn_4": 8,
+      "trombone_1": 7,
+      "trombone_2": 8,
+      "bass_trombone": 7,
+      "tuba": 7,
+      "percussion_1_timpani": 6,
+      "percussion_2": 11
+    },
+    "difficulty": "Advanced",
+    "duration": "15 minutes",
+    "year": 2026,
+    "ascap_registered": true,
+    "paypal_button_id": "JAXAR83CSXQCU",
+    "image": "/images/scores/the_long_goodbye.jpg",
+    "type": "Brass Ensemble",
+    "tags": [
+      "ensemble",
+      "brass",
+      "percussion",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "trumpet",
+      "horn",
+      "trombone",
+      "tuba",
+      "percussion"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "rKdsck9vJTQ"
     }
   },
   {
@@ -879,8 +928,46 @@
       "type": "soundcloud",
       "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1604626878&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
     },
-    "featured": true,
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\tThe rumble of jet engines.<br>A crying baby.<br>Dry eyes, cracked lips.<br>The stewardess whispering<br>A begrumbled old lady.<br>Thousands of feet above the clouds.<br>Turbulence<br>The cold arid air.<br>Coughing.<br>Sneezing.<br>Fidgeting.<br>Knees have nowhere to go.<br>Dirty looks from the person in front.<br>The descent into sleep<br>As far away as the destination...<br><br>Breach the layer of cumulonimbus.<br>Closer than before.<br>Much awaited cup of water.<br>Can the pilot see through these clouds?<br>Tiny spots of light.<br>Where is the other shoe?<br>Seatbelts on.<br>Afraid.<br>What's it like to be back?<br>Another universe.<br>Excited.<br>Out of the clouds in one flick<br>The City appears.<br><br>\n\t\t<span class=\"quote-author\">— Yuval Medina (2023)</span>\n\t</blockquote>\n\t<p>\n\t\t<strong>Program Notes</strong><br><br>\"The accompanying poem and the music are inspired by the same dream. Living in between two worlds is disorienting. My family and I live on different continents. I am both a musician and I also work with computers. I am both a composer and also a pianist. Waking up in the middle of a flight was only the most vivid situation that came to mind when I wanted to describe the funny feeling of suddenly realizing you are not in one world or the other, but with one foot here and one foot there.\" <br><br>&emsp;<em>– April, 2023</em></p></div>"
+  },
+  {
+    "title": "Yom HaShishi (יום השישי)",
+    "subtitle": "for mixed choir, a capella",
+    "link": "/works/yom-hashishi",
+    "slug": "yom_hashishi",
+    "instrumentation": "SATB Voices a capella",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 9,
+      "tenor_solo": 2,
+      "soprano": 2,
+      "alto": 2,
+      "tenor": 2,
+      "bass": 2
+    },
+    "difficulty": "Intermediate",
+    "duration": "5 minutes",
+    "year": 2025,
+    "ascap_registered": true,
+    "paypal_button_id": "NTQ56B554L5R6",
+    "image": "/images/scores/yom_hashishi.jpg",
+    "type": "Choral",
+    "tags": [
+      "choral",
+      "voice",
+      "intermediate"
+    ],
+    "instrument_filters": [
+      "soprano",
+      "alto",
+      "tenor",
+      "bass",
+      "voice"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "YzNKSRhK-nE"
+    }
   },
   {
     "title": "In Tempo",

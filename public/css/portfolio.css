@@ -1,0 +1,340 @@
+/* Portfolio page styles — matches site design system */
+/* Bg: #0a0a0a, Headings: Playfair Display, Body: Helvetica Neue, Accent: #c56244 */
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Fade-in animation (matches videos.css pattern) === */
+@keyframes fadeSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === Page container === */
+.portfolio-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 80px 28px 0;
+}
+
+/* === Section spacing === */
+.portfolio-section {
+  margin-bottom: 64px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.portfolio-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* First section animates on load */
+.portfolio-section:first-child {
+  animation: fadeSlideIn 0.8s ease-out forwards;
+}
+
+/* === Divider (gold accent line, like business card) === */
+.portfolio-divider {
+  width: 40px;
+  height: 2px;
+  background: #c56244;
+  margin-bottom: 32px;
+  border: none;
+}
+
+/* === Video title block === */
+.portfolio-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: white;
+  line-height: 1.3;
+}
+
+.portfolio-subtitle {
+  font-size: 1.0em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 4px;
+}
+
+.portfolio-viewcount {
+  font-size: 0.9em;
+  color: #c56244;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.portfolio-description {
+  font-size: 0.92em;
+  color: rgba(255, 255, 255, 0.45);
+  font-style: italic;
+  line-height: 1.6;
+  max-width: 640px;
+  margin-top: 14px;
+}
+
+/* === Video embed === */
+.portfolio-video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
+}
+
+.portfolio-video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* === Placeholder for videos not yet chosen === */
+.portfolio-video-placeholder {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #151515;
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.portfolio-video-placeholder .placeholder-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-video-placeholder .placeholder-icon::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 14px solid rgba(255, 255, 255, 0.15);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  margin-left: 3px;
+}
+
+.portfolio-video-placeholder span {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.2);
+  letter-spacing: 0.5px;
+}
+
+/* === Third item: side-by-side layout === */
+.portfolio-sidebyside {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+.portfolio-sidebyside .portfolio-video-embed,
+.portfolio-sidebyside .portfolio-video-placeholder {
+  flex: 0 0 55%;
+}
+
+.portfolio-sidebyside .portfolio-text-block {
+  flex: 1;
+  padding-top: 4px;
+}
+
+.portfolio-sidebyside .portfolio-title {
+  font-size: 1.25em;
+}
+
+/* === CTA section === */
+.portfolio-cta {
+  text-align: center;
+  padding: 48px 20px 24px;
+  margin-bottom: 0;
+}
+
+.portfolio-cta .portfolio-divider {
+  margin: 0 auto 28px;
+}
+
+.portfolio-cta-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: white;
+}
+
+.portfolio-cta-body {
+  font-size: 1.0em;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 420px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.portfolio-cta-email {
+  display: inline-block;
+  font-size: 1.0em;
+  color: #c56244;
+  border: 1px solid rgba(197, 98, 68, 0.4);
+  padding: 10px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.portfolio-cta-email:hover {
+  background-color: rgba(197, 98, 68, 0.1);
+  border-color: #c56244;
+  transform: translateY(-1px);
+}
+
+/* === Details line (non-italic factual details) === */
+.portfolio-details {
+  font-size: 0.92em;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* === Compact description variant === */
+.portfolio-description--compact {
+  margin-top: 10px;
+}
+
+/* === Vanity Fair thumbnail with play overlay === */
+.portfolio-vf-thumbnail {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
+}
+
+.portfolio-vf-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.portfolio-vf-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  transition: background 0.3s ease;
+}
+
+.portfolio-vf-play {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.portfolio-vf-play::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 14px solid rgba(255, 255, 255, 0.8);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  margin-left: 3px;
+}
+
+.portfolio-vf-overlay span {
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.portfolio-instagram-link {
+  flex: 0 0 55%;
+}
+
+/* Hover effects */
+.portfolio-instagram-link:hover .portfolio-vf-thumbnail img {
+  transform: scale(1.03);
+}
+
+.portfolio-instagram-link:hover .portfolio-vf-overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-instagram-link:hover .portfolio-vf-play {
+  transform: scale(1.08);
+  border-color: white;
+}
+
+.portfolio-instagram-link:hover .portfolio-vf-overlay span {
+  color: white;
+}
+
+/* === Responsive === */
+@media (max-width: 680px) {
+  .portfolio-page {
+    padding: 70px 18px 0;
+  }
+
+  .portfolio-title {
+    font-size: 1.3em;
+  }
+
+  .portfolio-sidebyside {
+    flex-direction: column;
+  }
+
+  .portfolio-sidebyside .portfolio-video-embed,
+  .portfolio-sidebyside .portfolio-video-placeholder {
+    flex: none;
+    width: 100%;
+  }
+
+  .portfolio-instagram-link {
+    flex: none;
+    width: 100%;
+  }
+
+  .portfolio-sidebyside .portfolio-title {
+    font-size: 1.2em;
+  }
+
+  .portfolio-cta-heading {
+    font-size: 1.3em;
+  }
+}
