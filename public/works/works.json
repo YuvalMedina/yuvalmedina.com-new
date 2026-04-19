@@ -696,6 +696,47 @@
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t“We had a lover, and since the war, he is gone. Simply vanished.”<br>\n\t\t<span class=\"quote-author\">— A. B. Yehoshua</span>\n\t</blockquote>\n</div>"
   },
   {
+    "title": "Prelude and Canzone",
+    "subtitle": "for brass quintet",
+    "link": "/works/prelude-and-canzone",
+    "slug": "prelude_and_canzone",
+    "instrumentation": "brass quintet",
+    "parts_included": "Full score, individual parts, and combined trumpet part",
+    "pages": {
+      "full_score": 51,
+      "combined_trumpet_part": 12,
+      "trumpet_1": 8,
+      "trumpet_2": 8,
+      "horn": 7,
+      "trombone": 8,
+      "tuba": 8
+    },
+    "difficulty": "Advanced",
+    "duration": "17 minutes",
+    "year": 2025,
+    "ascap_registered": true,
+    "paypal_button_id": "2LRUD34THFLUC",
+    "image": "/images/scores/prelude_and_canzone.jpg",
+    "type": "Quintet",
+    "tags": [
+      "chamber",
+      "quintet",
+      "advanced",
+      "brass"
+    ],
+    "instrument_filters": [
+      "trumpet",
+      "horn",
+      "trombone",
+      "tuba"
+    ],
+    "featured": true,
+    "media_preview": {
+      "type": "youtube",
+      "id": "lKF0W5UPYUY"
+    }
+  },
+  {
     "title": "Sleepwalking",
     "subtitle": "five fits for solo piano",
     "link": "/works/sleepwalking",
