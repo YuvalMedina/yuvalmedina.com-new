@@ -110,6 +110,15 @@ body {
     color: #fff;
     font-style: italic;
   }
+
+  .work-description-text a {
+    color: #c56244;
+    text-decoration: none;
+  }
+
+  .work-description-text a:hover {
+    text-decoration: underline;
+  }
   
   .work-quote {
     margin-top: 2em;

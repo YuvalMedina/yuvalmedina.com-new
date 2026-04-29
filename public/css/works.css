@@ -148,7 +148,7 @@ body {
 .catalog-grid a:hover .work-subtitle,
 .catalog-grid a:hover .work-year,
 .catalog-grid a:hover .tile-arrow {
-  color: #c54d44;
+  color: #c56244;
 }
   
 .catalog-grid a:hover .work-title {
@@ -157,4 +157,54 @@ body {
   
   .catalog-grid a:visited {
     color: white;
+  }
+
+  .audio-toggle {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 22px;
+    background: rgba(20, 20, 20, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .audio-toggle:hover {
+    background: rgba(40, 40, 40, 0.95);
+    border-color: rgba(197, 77, 68, 0.6);
+    transform: translateY(-2px);
+  }
+  
+  .audio-toggle i {
+    font-size: 1.05em;
+  }
+  
+  .audio-toggle.unmuted {
+    border-color: rgba(197, 77, 68, 0.8);
+    color: #c56244;
+  }
+  
+  .audio-toggle.muted .audio-toggle-label {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 600px) {
+    .audio-toggle {
+      bottom: 16px;
+      right: 16px;
+      padding: 12px 18px;
+      font-size: 0.9em;
+    }
   }
