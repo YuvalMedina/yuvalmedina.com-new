@@ -758,11 +758,11 @@ input:focus {
   100% { opacity: 0; transform: scale(1.15); }
 }
 
-/* === Persistent mode — small fixed bottom-right === */
+/* === Persistent mode — small fixed bottom-left === */
 .audio-toggle.persistent-mode {
   position: fixed;
   bottom: 24px;
-  right: 24px;
+  left: 24px;
   z-index: 1000;
   padding: 14px 22px;
   border-radius: 999px;
@@ -790,7 +790,7 @@ input:focus {
   }
   .audio-toggle.persistent-mode {
     bottom: 16px;
-    right: 16px;
+    left: 16px;
     padding: 12px 18px;
     font-size: 0.9em;
   }

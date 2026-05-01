@@ -21,6 +21,7 @@
   <link rel="icon" href="/images/favicon_headshot.png" type="image/x-icon">
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/contact-widget.css?v=2026-04-29" />
   <link rel="stylesheet" href="../css/confirmation.css" />
   <link rel="stylesheet" href="../css/sidebar.css" />
   <link rel="stylesheet" href="../css/footer.css" />
@@ -105,5 +106,74 @@
 
   <script src="../js/sidebar.js"></script>
   <script src="../js/confirmation.js"></script>
+
+  <div id="contact-widget" class="contact-widget" aria-hidden="true">
+    <div class="contact-widget__panel" role="dialog" aria-labelledby="contact-widget-title">
+      <p id="contact-widget-title" class="contact-widget__title">Get in touch</p>
+      <p class="contact-widget__intro">Open to commissions, performances, and collaborations.</p>
+  
+      <a class="contact-widget__email" href="mailto:music@yuvalmedina.com">music@yuvalmedina.com</a>
+  
+      <div class="contact-widget__social">
+        <a href="https://instagram.com/yuvalcomposer" target="_blank" rel="noopener">Instagram</a>
+        <span class="contact-widget__sep">·</span>
+        <a href="https://youtube.com/@yuvalcomposer" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+  
+    <button id="contact-widget-button" class="contact-widget__button" type="button" aria-expanded="false" aria-controls="contact-widget">
+      Get in touch
+    </button>
+  </div>
+  
+  <script>
+  (function() {
+    const widget = document.getElementById('contact-widget');
+    const button = document.getElementById('contact-widget-button');
+    if (!widget || !button) return;
+  
+    let isOpen = false;
+    let isVisible = false;
+  
+    // Reveal widget after light scroll
+    function checkScroll() {
+      if (!isVisible && window.scrollY > 100) {
+        widget.classList.add('contact-widget--visible');
+        widget.setAttribute('aria-hidden', 'false');
+        isVisible = true;
+      }
+    }
+    window.addEventListener('scroll', checkScroll, { passive: true });
+    checkScroll();
+  
+    // Toggle panel on button click
+    function togglePanel(e) {
+      e.stopPropagation();
+      isOpen = !isOpen;
+      widget.classList.toggle('contact-widget--open', isOpen);
+      button.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+    button.addEventListener('click', togglePanel);
+  
+    // Close on outside click
+    document.addEventListener('click', function(e) {
+      if (isOpen && !widget.contains(e.target)) {
+        isOpen = false;
+        widget.classList.remove('contact-widget--open');
+        button.setAttribute('aria-expanded', 'false');
+      }
+    });
+  
+    // Close on Escape
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && isOpen) {
+        isOpen = false;
+        widget.classList.remove('contact-widget--open');
+        button.setAttribute('aria-expanded', 'false');
+        button.focus();
+      }
+    });
+  })();
+  </script>
 </body>
 </html>
