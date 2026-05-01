@@ -289,6 +289,38 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 32px;
   }
+
+  .works-more {
+    margin-top: 48px;
+    text-align: center;
+  }
+
+  .works-more-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.25s ease, gap 0.25s ease;
+  }
+
+  .works-more-link:hover {
+    color: #c56244;
+    gap: 12px;
+  }
+
+  .works-more-arrow {
+    transition: transform 0.25s ease;
+    display: inline-block;
+  }
+
+  .works-more-link:hover .works-more-arrow {
+    transform: translateX(2px);
+  }
   
   .work-tile {
     position: relative;

@@ -19,10 +19,13 @@
     <loc>https://yuvalmedina.com/store/</loc>
   </url>
   <url>
-    <loc>https://yuvalmedina.com/portfolio/</loc>
+    <loc>https://yuvalmedina.com/portfolio.html</loc>
   </url>
   <url>
     <loc>https://yuvalmedina.com/works/</loc>
+  </url>
+  <url>
+    <loc>https://yuvalmedina.com/meteors.html</loc>
   </url>
   <url>
     <loc>https://yuvalmedina.com/works/elegie-for-that-which</loc>
@@ -70,6 +73,9 @@
     <loc>https://yuvalmedina.com/works/mariposa</loc>
   </url>
   <url>
+    <loc>https://yuvalmedina.com/works/meteors</loc>
+  </url>
+  <url>
     <loc>https://yuvalmedina.com/works/moving</loc>
   </url>
   <url>
@@ -79,10 +85,19 @@
     <loc>https://yuvalmedina.com/works/no-one-voices-answers</loc>
   </url>
   <url>
+    <loc>https://yuvalmedina.com/works/on-the-softest-bed-of-clouds</loc>
+  </url>
+  <url>
+    <loc>https://yuvalmedina.com/works/prelude-and-canzone</loc>
+  </url>
+  <url>
     <loc>https://yuvalmedina.com/works/sleepwalking</loc>
   </url>
   <url>
     <loc>https://yuvalmedina.com/works/sonata-in-d</loc>
+  </url>
+  <url>
+    <loc>https://yuvalmedina.com/works/the-long-goodbye</loc>
   </url>
   <url>
     <loc>https://yuvalmedina.com/works/together-again</loc>
@@ -95,5 +110,8 @@
   </url>
   <url>
     <loc>https://yuvalmedina.com/works/waking-up-mid-flight</loc>
+  </url>
+  <url>
+    <loc>https://yuvalmedina.com/works/yom-hashishi</loc>
   </url>
 </urlset>
