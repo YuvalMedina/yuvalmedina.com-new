@@ -173,7 +173,7 @@ body {
   font-family: var(--serif);
   font-weight: 300;
   font-style: italic;
-  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  font-size: clamp(1.25rem, 2.7vw, 1.4rem);
   line-height: 1.5;
   color: var(--text-primary);
   margin-bottom: 1.5rem;
