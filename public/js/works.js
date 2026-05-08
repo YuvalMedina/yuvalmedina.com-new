@@ -4,6 +4,29 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Audio state — starts muted, can be toggled by user
   let audioEnabled = false;
 
+  // Helper: fade a media element's volume in or out over a duration
+  function fadeMediaVolume(media, targetVolume, duration = 200, { resetOnPause = true } = {}) {
+    if (media._fadeInterval) clearInterval(media._fadeInterval);
+
+    const startVolume = media.volume;
+    const startTime = performance.now();
+
+    media._fadeInterval = setInterval(() => {
+      const elapsed = performance.now() - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      media.volume = startVolume + (targetVolume - startVolume) * progress;
+
+      if (progress >= 1) {
+        clearInterval(media._fadeInterval);
+        media._fadeInterval = null;
+        if (targetVolume === 0) {
+          media.pause();
+          if (resetOnPause) media.currentTime = 0;
+        }
+      }
+    }, 16);
+  }
+
   const response = await fetch('/works/works.json?v=' + Math.floor(Date.now() / 86400000));
   const allWorks = await response.json();
 
@@ -86,9 +109,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.querySelectorAll(".tile-video").forEach((video) => {
       // Apply current audio state on render
       video.muted = !audioEnabled;
+      video.volume = 0; // start silent so fade-in is noticeable
 
       video.addEventListener("mouseenter", () => {
         video.muted = !audioEnabled;
+        video.volume = 0; // reset before fade-in
         const playPromise = video.play();
         if (playPromise !== undefined) {
           playPromise.catch(() => {
@@ -97,10 +122,13 @@ document.addEventListener("DOMContentLoaded", async () => {
             video.play();
           });
         }
+        // Fade in over 250ms
+        fadeMediaVolume(video, 1.0, 250);
       });
+
       video.addEventListener("mouseleave", () => {
-        video.pause();
-        video.currentTime = 0;
+        // Fade out over 200ms (pauses + resets video when fade completes)
+        fadeMediaVolume(video, 0, 200);
       });
     });
   }

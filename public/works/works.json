@@ -432,6 +432,41 @@
     }
   },
   {
+    "title": "Idyll for Saba",
+    "subtitle": "for oboe and piano",
+    "link": "/works/idyll-for-saba",
+    "slug": "idyll_for_saba",
+    "instrumentation": "Oboe and piano",
+    "parts_included": "Full score and oboe part",
+    "pages": {
+      "full_score": 31,
+      "oboe": 8
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "13 minutes",
+    "year": 2026,
+    "ascap_registered": true,
+    "paypal_button_id": "FGWJJME8GY4NC",
+    "image": "/images/scores/idyll_for_saba.jpg",
+    "type": "Oboe piano sonata",
+    "tags": [
+      "duo",
+      "chamber",
+      "intermediate",
+      "advanced",
+      "oboe",
+      "piano"
+    ],
+    "instrument_filters": [
+      "oboe",
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "6f-5R5cAQBo"
+    }
+  },
+  {
     "title": "Improvisation on a Theme by Amy Beach",
     "subtitle": "for zhongruan",
     "link": "/works/improvisation-amy-beach",
@@ -927,6 +962,58 @@
     },
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\t\"There is a place called ‘heaven’ where the good here unfinished is completed; and where the stories unwritten, and the hopes unfulfilled, are continued. We may laugh together yet.\"<br>\n\t\t<span class=\"quote-author\">— J.R.R. Tolkien</span>\n\t</blockquote>\n</div>",
     "featured": true
+  },
+  {
+    "title": "Toy Train",
+    "subtitle": "for soprano, tenor, string quintet, harp, and piano",
+    "link": "/works/toy-train",
+    "slug": "toy_train",
+    "instrumentation": "Soprano, tenor, string quintet, harp, and piano",
+    "parts_included": "Full score and individual parts",
+    "pages": {
+      "full_score": 28,
+      "soprano": 5,
+      "tenor": 5,
+      "violin_I": 13,
+      "violin_II": 9,
+      "viola": 11,
+      "violoncello": 7,
+      "double_bass": 5,
+      "harp": 7,
+      "piano": 5
+    },
+    "difficulty": "Advanced",
+    "duration": "9 minutes",
+    "year": 2026,
+    "ascap_registered": true,
+    "paypal_button_id": "NRH8QHGM3Q6J4",
+    "image": "/images/scores/toy_train.jpg",
+    "type": "Vocal Chamber",
+    "tags": [
+      "vocal",
+      "chamber",
+      "advanced",
+      "strings",
+      "harp",
+      "piano"
+    ],
+    "instrument_filters": [
+      "mezzo-soprano",
+      "soprano",
+      "tenor",
+      "violin",
+      "viola",
+      "cello",
+      "double bass",
+      "bass",
+      "contrabass",
+      "harp",
+      "piano"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "Udr9_xbyBBQ"
+    }
   },
   {
     "title": "Unrequited Love (fantasy in mixolydian)",
