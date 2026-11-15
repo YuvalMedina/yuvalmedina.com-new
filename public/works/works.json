@@ -623,6 +623,47 @@
     "description": "<div class=\"work-description-text\">\n\t<p>\n\t\t<blockquote class=\"work-quote\">\n\t\tButterflies are white and blue<br>In this field we wander through.<br>Suffer me to take your hand.<br>Death comes in a day or two.<br><br>All the things we ever knew<br>Will be ashes in that hour,<br>Mark the transient butterfly,<br>How he hangs upon the flower.<br><br>Suffer me to take your hand.<br>Suffer me to cherish you<br>Till the dawn is in the sky.<br>Whether I be false or true,<br>Death comes in a day or two.<br><br>\n\t\t<span class=\"quote-author\">— Edna St. Vincent Millay (1921)</span>\n\t</blockquote>\n</div>"
   },
   {
+    "title": "Meltemi",
+    "subtitle": "for string orchestra",
+    "link": "/works/meltemi",
+    "slug": "meltemi",
+    "instrumentation": "String orchestra",
+    "parts_included": "Full score and parts",
+    "pages": {
+      "full_score": 39,
+      "violin_I": 13,
+      "violin_II": 12,
+      "viola": 13,
+      "violoncello": 18,
+      "contrabass": 10
+    },
+    "difficulty": "Intermediate to Advanced",
+    "duration": "16 minutes",
+    "year": 2026,
+    "ascap_registered": true,
+    "paypal_button_id": "9GZWL6HSKTT26",
+    "image": "/images/scores/meltemi.jpg",
+    "type": "Orchestral Chamber",
+    "tags": [
+      "orchestral",
+      "chamber",
+      "strings",
+      "intermediate",
+      "advanced"
+    ],
+    "instrument_filters": [
+      "violin",
+      "viola",
+      "cello",
+      "contrabass",
+      "bass"
+    ],
+    "media_preview": {
+      "type": "youtube",
+      "id": "TUH74WAS7Ns"
+    }
+  },
+  {
     "title": "Meteors",
     "subtitle": "for orchestra",
     "link": "/works/meteors",

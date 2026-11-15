@@ -338,3 +338,98 @@ body {
     font-size: 1.3em;
   }
 }
+
+/* Portfolio introduction */
+.portfolio-intro {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.portfolio-intro__portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-intro__text {
+  min-width: 0;
+  font-family: Georgia, serif;
+}
+
+.portfolio-intro__text h1 {
+  margin: 0 0 16px;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.portfolio-intro__text p {
+  margin: 0 0 16px;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Full description on desktop */
+.portfolio-intro__summary {
+  display: none;
+}
+
+.portfolio-intro__text a {
+  display: inline-block;
+  color: #c56244;
+  text-decoration: none;
+}
+
+.portfolio-intro__text a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.portfolio-intro__text a:focus-visible {
+  outline: 2px solid #c56244;
+  outline-offset: 4px;
+}
+
+/* Compact introduction on phones */
+@media (max-width: 680px) {
+  .portfolio-intro {
+    grid-template-columns: 64px minmax(0, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .portfolio-intro__text h1 {
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+  }
+
+  .portfolio-intro__text p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .portfolio-intro__description {
+    display: none;
+  }
+
+  .portfolio-intro__summary {
+    display: block;
+  }
+
+  .portfolio-intro__text a {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .portfolio-intro + .portfolio-section > .portfolio-divider {
+    margin-bottom: 20px;
+  }
+}

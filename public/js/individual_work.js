@@ -45,7 +45,43 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
   
       // Purchase link to open modal via store
-      document.querySelector("#purchase-link a").href = `/store/index.html?w=${slug}`;
+      const purchaseLink = document.getElementById("purchase-link");
+      purchaseLink.querySelector("a").href = `/store/index.html?w=${slug}`;
+
+      // Reveal after scrolling a few lines into the description
+      const description = document.getElementById("work-description");
+      const descriptionRevealOffset = 90;
+
+      function updatePurchaseLinkVisibility() {
+        const descriptionRect = description.getBoundingClientRect();
+
+        // Show once the description has entered ~120px into the viewport
+        const shouldShow =
+          descriptionRect.top <= window.innerHeight - 120;
+
+        purchaseLink.classList.toggle(
+          "purchase-link--visible",
+          shouldShow
+        );
+
+        purchaseLink.setAttribute(
+          "aria-hidden",
+          shouldShow ? "false" : "true"
+        );
+      }
+
+      window.addEventListener(
+        "scroll",
+        updatePurchaseLinkVisibility,
+        { passive: true }
+      );
+
+      window.addEventListener(
+        "resize",
+        updatePurchaseLinkVisibility
+      );
+
+      updatePurchaseLinkVisibility();
     } catch (err) {
       console.error("Failed to load work info", err);
     }

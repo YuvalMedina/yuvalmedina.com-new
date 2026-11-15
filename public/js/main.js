@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //
   // === AUDIO STATE & UNMUTE TOGGLE ===
   //
-  const ASSET_VERSION = "v2"; // bump this whenever you replace preview/hero/audio files
+  const ASSET_VERSION = "v4"; // bump this whenever you replace preview/hero/audio files
 
   let audioEnabled = false;
   let toggleMode = "hero"; // "hero" = big CTA in hero, "persistent" = small bottom-right
